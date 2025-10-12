@@ -1,0 +1,101 @@
+{
+  "killer": [
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_bitterMurmur.png",
+      "perkName": "Bitter Murmur",
+      "description": "Unlocks potential in your Aura-reading ability: Whenever a Generator is completed, Bitter Murmur triggers its primary effect: The Auras of any Survivors within 16 metres of that Generator are revealed to you for 5 seconds . Once the last Generator is completed, Bitter Murmur triggers its secondary effect: The Auras of all Survivors are revealed to you for 5 / 7 / 10 seconds ."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/0/01/IconPerks_deerstalker.png",
+      "perkName": "Deerstalker",
+      "description": "Unlocks potential in your Aura-reading ability: The Auras of all Survivors in the Dying State are revealed to you within 20 / 28 / 36 metres ."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/9/94/IconPerks_distressing.png",
+      "perkName": "Distressing",
+      "description": "\"Your horrifying emanation strikes at a supernaturally long distance.\" You benefit from the following permanent effect: Increases your Terror Radius by 20 / 25 / 30 % ."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png",
+      "perkName": "Hex: Fortune's Fool",
+      "description": "\"A Hex that toys with a victim's suffering.\" Each time you hook a Survivor for the first time, if there is at least one Dull Totem in the environment, Hex: Fortune's Fool activates and lights a Hex Totem : Causes that Survivor to suffer permanently from the Oblivious Status Effect . Blocks their Hex Totem from being cleansed by any other Survivor for 90 seconds . The Aura of their Hex Totem is revealed to the Cursed Survivor within 24 / 20 / 16 metres . All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png",
+      "perkName": "Hex: No One Escapes Death",
+      "description": "\"A Hex rooting its power on hope. You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping.\" Once the Exit Gates are powered, if there is still a Dull Totem remaining in the environment, Hex: No One Escapes Death activates and lights it: Grants a 2 / 3 / 4 % Haste Status Effect . Causes all Survivors to suffer from the Exposed Status Effect . Once the Status Effect is revealed to Survivors, Hex: No One Escapes Death triggers the following effect: The Aura of its Hex Totem is revealed to all Survivors within 4 metres . This range gradually expands to 24 metres over the course of 30 seconds . Hex: No One Escapes Death remains inactive if no Dull Totems are available. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"And the beast became faster and more powerful as if The Entity's shadowy whips were lashing at its back.\""
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png",
+      "perkName": "Hex: Thrill of the Hunt",
+      "description": "\"A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your Totems.\" Start the Trial with 5 Tokens , one for each Totem located in the environment: Reduces the Action speeds for Blessing and Cleansing by a stack-able 8 / 10 / 12 % per Token, up to a maximum of 40 / 50 / 60 % . Hex: Thrill of the Hunt loses -1 Token whenever a Totem is cleansed. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/4/40/IconPerks_insidious.png",
+      "perkName": "Insidious",
+      "description": "Unlocks the stealth ability: After standing still for 3 / 2 / 1 second(s) , Insidious activates for as long as you remain stationary: Grants the Undetectable Status Effect . Insidious deactivates once you start moving again."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/1/14/IconPerks_ironGrasp.png",
+      "perkName": "Iron Grasp",
+      "description": "\"Your powerful grasp on Survivors causes escapes to be nearly impossible.\" While carrying a Survivor, they suffer from the following effects: Reduces the strength of the Involuntary Strafing caused by their wiggling by -75 % . Increases the time required to break free from your grasp by 4 / 8 / 12 % ."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png",
+      "perkName": "No Holds Barred",
+      "description": "\"You induce mental suffering by crushing any hope of escape.\" Each time a Generator is completed, No Holds Barred calls upon The Entity for the following effects: Blocks the Generator with the most Progression for 15 / 20 / 25 seconds . The Aura of the Blocked Generator is highlighted to you in white ."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/9/91/IconPerks_scourgeHookMonstrousShrine.png",
+      "perkName": "Scourge Hook: Monstrous Shrine",
+      "description": "\"Your fervent care of the Hooks found in the Basement has aroused The Entity's interest.\" At the start of the Trial, the 4 Hooks located inside the Basement and an additional 4 Hooks located throughout the Trial Grounds are all changed into Scourge Hooks : The Auras of Scourge Hooks are highlighted to you in white . Whenever you are farther than 24 metres from a Survivor hooked onto a Scourge Hook , the following effect applies: Accelerates their Sacrifice Process by 10 / 15 / 20 % . \"Then you will know that there is no escape. When hanging in the depths, you face the dark one.\""
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png",
+      "perkName": "Scourge Hook: Weeping Wounds",
+      "description": "\"You are the bringer of sweet pain.\" At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks : The Auras of these Scourge Hooks are highlighted in white . Each time a Survivor is unhooked from a Scourge Hook , the following effects apply: Causes that Survivor to suffer from the Haemorrhage Status Effect for 90 seconds . After the first time that Survivor is healed back to full health, they suffer from the following effect until they are injured again by any means: Reduces their Action speeds for Healing and Repairing by 10 / 13 / 16 % ."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/a/aa/IconPerks_shatteredHope.png",
+      "perkName": "Shattered Hope",
+      "description": "To capture your prey, you must first extinguish their hope. Instead of snuffing Boon Totems you destroy them. Destroying a Boon Totem this way reveals the Auras of all Survivors that were within its range at that moment for 6 / 7 / 8 seconds . \"Nothing is permanent here. Nothing except our endless perdition.\" — Unknown, Notebook"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png",
+      "perkName": "Sloppy Butcher",
+      "description": "You know where to hit to make them bleed. Wounds inflicted by Basic Attacks cause Survivors to suffer from the Haemorrhage and Mangled Status Effects for 70 / 80 / 90 seconds . Increases the Bleeding frequency of injured Survivors by 50 / 75 / 100 % for the same duration. Increases the Regression rate at which partial Healing Progression is lost because of Haemorrhage by +25 % . \"It is in its sadistic nature. There is no swift kill as it delights in the obscene spectacle of our agonising suffering.\""
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png",
+      "perkName": "Spies from the Shadows",
+      "description": "\"Allows the Crows found in the environment to directly communicate with you.\" Whenever a Survivor startles a Crow within 20 / 28 / 36 metres of your location, Spies from the Shadows triggers its effect: Alerts you with a unique Loud Noise Notification in the shape of a Crow . Spies from the Shadows has a cool-down of 5 seconds between alerts. \"In the shadows they torment, scarring our minds with each scream.\""
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/5/57/IconPerks_unrelenting.png",
+      "perkName": "Unrelenting",
+      "description": "\"You recuperate faster from missed attacks made with your main weapon.\" Basic Attacks benefit from the following effect: Reduces the Cool-down time of missed attacks by 20 / 25 / 30 % ."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_whispers.png",
+      "perkName": "Whispers",
+      "description": "\"You have a rudimentary understanding of The Entity's voice.\" Whenever any Survivor is within 48 / 40 / 32 metres of your location, Whispers triggers its effect: Causes you to hear the sporadic whispers of The Entity , indicating a Survivor's presence. \"It is unclear as to the motivations of The Fog, but it is undeniable that it often takes the beast's side.\" — Unknown, Notebook"
+    }
+  ],
+  "survivor": [
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/2/24/IconPerks_aceInTheHole.png",
+      "perkName": "Ace in the Hole",
+      "description": "\"Lady Luck always seems to be throwing something good your way.\" Causes all regular Items you retrieve from a Chest to come equipped with 1 to 2 Add-ons : First Slot : 100 % chance to be equipped with an Add-on of Visceral Rarity or lower. Second Slot : 50 / 75 / 100 % chance to be equipped with an Add-on of Uncommon Rarity or lower. Ace in the Hole prevents any attached Add-ons on your currently held Item to be consumed upon escaping the Trial. \"Everything that glitters isn't gold. But gold isn't worth a damn in this place, so this should come in handy.\" — Ace Visconti"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/f/f7/IconPerks_adrenaline.png",
+      "perkName": "Adrenaline",
+      "description": "You are fuelled by unexpecting energy when on the verge of escape. Once the Exit Gates are powered, Adrenaline activates: Instantly heal the equivalent of 1 Health State . Grants a +50 % Haste Status Effect for 3 seconds . Adrenaline ignores an existing Exhausted Status Effect , but causes it for 60 / 50 / 40 seconds ."
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/0/0d/IconPerks_aftercare.png",
+      "perkName": "Aftercare",
+      "description": "Unlocks potential in your Aura-reading ability. The Auras of the last 1 / 2 / 3 Survivor(s) are permanently revealed to you, once any of the following conditions have been met: You have unhooked them. They have unhooked you. You have completed a Healing action on them. They have completed a Healing action on you. Those Survivors also have your Aura revealed to them. Aftercare resets its effect once you are hooked. \"A Mercy that Rips the Storm. Oil work to honour my best buddies who happen to be the best musicians I know. Their first album is still my favourite. It got me through a dark time in my life.\" — Jeff, oil on canvas, 16x16"
+    }
+  ]
+}
