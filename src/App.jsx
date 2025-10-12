@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    fetch("/perks2.json")
+    fetch(`${import.meta.env.BASE_URL}perks.json`)
       .then((res) => res.json())
       .then((data) => {
         const allPerks = [...data.killer, ...data.survivor];
