@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    fetch("/generalperks.json")
+    fetch("/perks2.json")
       .then((res) => res.json())
       .then((data) => {
         const allPerks = [...data.killer, ...data.survivor];
