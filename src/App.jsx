@@ -31,6 +31,7 @@ function App() {
   }, []);
 
   useEffect(() => {
+    console.log(`${import.meta.env.BASE_URL}perks.json`);
     fetch(`${import.meta.env.BASE_URL}perks.json`)
       .then((res) => res.json())
       .then((data) => {
