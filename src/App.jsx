@@ -44,14 +44,13 @@ function App() {
 
   return (
     <>
-      <h1 className="text-2xl font-semibold mb-4">Random Perks</h1>
-
+      <h1 className="text-2xl font-semibold mb-4 text-red">Random Perks</h1>
       <div className="flex justify-end mx-4">
         <button
           type="button"
           onClick={toggleTheme}
           aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
-          className="p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+          className={`${darkMode ? "bg-black" : "bg-white"}`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
