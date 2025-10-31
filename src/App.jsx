@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
-
-function getRandomItems(arr, n) {
-  const shuffled = [...arr].sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, n);
-}
+import PerksCard from "./perksCard";
 
 function App() {
-  const [perks, setPerks] = useState([]);
   const [darkMode, setDarkMode] = useState(false);
+  const [perks, setPerks] = useState([]);
+
+  function getRandomItems(arr, n) {
+    const shuffled = [...arr].sort(() => 0.5 - Math.random());
+    console.log(shuffled);
+  }
 
   // Theme toggle handler
   function toggleTheme() {
@@ -36,7 +37,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => {
         const allPerks = [...data.killer, ...data.survivor];
-        const randomPerks = getRandomItems(allPerks, 4);
+        const randomPerks = getRandomItems(allPerks, 1);
         setPerks(randomPerks);
       })
       .catch((err) => console.error("Error loading perks:", err));
@@ -84,27 +85,10 @@ function App() {
         </button>
       </div>
 
-      <div className="flex flex-row flex-wrap gap-4  ">
-        {perks.map((perk, index) => (
-          <div key={index} className="flex flex-col items-center">
-            <img src={perk.perkImage} alt={perk.perkName} className=" w-20 h-20 " />
-
-            <span className="text-sm text-center">{perk.perkName}</span>
-            <br />
-            {/* <div> {perk.description}</div> */}
-            {perk.characterImage && (
-              <img
-                src={"https://deadbydaylight.wiki.gg" + perk.characterImage}
-                // src={"https://deadbydaylight.wiki.gg" + perk.characterImage}
-                alt={perk.character}
-                className=""
-              />
-            )}
-
-            <p>{perk.character}</p>
-          </div>
-        ))}
-      </div>
+      <PerksCard perks={perks} />
+      <PerksCard perks={perks} />
+      <PerksCard perks={perks} />
+      <PerksCard perks={perks} />
     </>
   );
 }
