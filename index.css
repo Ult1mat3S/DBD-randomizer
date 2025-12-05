@@ -32,11 +32,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -46,15 +41,14 @@ button {
   border-color: #3a3939;
   box-shadow: #242424;
   font-family: inherit;
-  /* background-color: #1a1a1a; */
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #213547;
   }
   a:hover {
     color: #747bff;
@@ -82,4 +76,9 @@ button {
 
 .dark button:hover {
   background-color: #141414;
+}
+
+.character-img {
+  width: 100px;
+  height: auto;
 }

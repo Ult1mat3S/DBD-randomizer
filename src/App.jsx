@@ -1,94 +1,66 @@
 import { useEffect, useState } from "react";
-import PerksCard from "./perksCard";
+import PerksCard from "./PerksCard";
+import ThemeSwitch from "./themeSwitch.jsx";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
   const [perks, setPerks] = useState([]);
+  const [perksArray, setPerksArray] = useState([]);
+  const [allSurvivorPerks, setAllSurvivorPerks] = useState([]);
+  const [allKillerPerks, setAllKillerPerks] = useState([]);
+  const [killerPerks, setKillerPerks] = useState([]);
+  const [survivorPerks, setSurvivorPerks] = useState([]);
 
   function getRandomItems(arr, n) {
     const shuffled = [...arr].sort(() => 0.5 - Math.random());
-    console.log(shuffled);
+    return shuffled.slice(0, n);
   }
 
-  // Theme toggle handler
-  function toggleTheme() {
-    setDarkMode((prev) => !prev);
+  function generateSurvivorPerks() {
+    const randomSurvivorPerks = getRandomItems(allSurvivorPerks, 4);
+    setSurvivorPerks(randomSurvivorPerks);
+  }
+
+  function generateKillerPerks() {
+    const randomKillerPerks = getRandomItems(allKillerPerks, 4);
+    setKillerPerks(randomKillerPerks);
   }
 
   useEffect(() => {
-    const html = document.documentElement;
-    html.classList.toggle("dark", darkMode);
-    html.classList.toggle("light", !darkMode);
-    localStorage.setItem("theme", darkMode ? "dark" : "light");
-  }, [darkMode]);
-
-  useEffect(() => {
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
-      setDarkMode(true);
-    }
-  }, []);
-
-  useEffect(() => {
-    console.log(`${import.meta.env.BASE_URL}perks.json`);
+    // console.log(`${import.meta.env.BASE_URL}perks.json`);
     fetch(`${import.meta.env.BASE_URL}perks.json`)
       .then((res) => res.json())
       .then((data) => {
         const allPerks = [...data.killer, ...data.survivor];
-        const randomPerks = getRandomItems(allPerks, 1);
-        setPerks(randomPerks);
+        const survPerks = data.survivor;
+        const killerPerks = data.killer;
+        setPerksArray(allPerks);
+        setAllKillerPerks(killerPerks);
+        setAllSurvivorPerks(survPerks);
+
+        const randomSurvivorPerks = getRandomItems(survPerks, 4);
+        const randomKillerPerks = getRandomItems(killerPerks, 4);
+        setKillerPerks(randomKillerPerks);
+        setSurvivorPerks(randomSurvivorPerks);
+
+        console.log(survivorPerks);
       })
       .catch((err) => console.error("Error loading perks:", err));
   }, []);
 
   return (
     <>
-      <h1 className="text-2xl font-semibold mb-4 text-red">Random Perks</h1>
-      <div className="flex justify-end mx-4">
-        <button
-          type="button"
-          onClick={toggleTheme}
-          aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
-          className={`${darkMode ? "bg-black" : "bg-white"}`}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className={`size-6 ${darkMode ? "hidden" : "block"}`}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
-            />
-          </svg>
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className={`size-6  ${darkMode ? "block" : "hidden"}`}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
-            />
-          </svg>
-        </button>
-      </div>
-
-      <PerksCard perks={perks} />
-      <PerksCard perks={perks} />
-      <PerksCard perks={perks} />
-      <PerksCard perks={perks} />
+      <h1 className="text-2xl font-semibold mb-4">Random Perks</h1>
+      <ThemeSwitch />
+      <h2> Killer</h2>
+      <PerksCard perks={killerPerks} />
+      <button type="button" onClick={generateKillerPerks}>
+        Generate
+      </button>
+      <h2>Survivor</h2>
+      <PerksCard perks={survivorPerks} />
+      <button type="button" onClick={generateSurvivorPerks}>
+        Generate
+      </button>
     </>
   );
 }
