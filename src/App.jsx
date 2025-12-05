@@ -42,7 +42,8 @@ function App() {
         setKillerPerks(randomKillerPerks);
         setSurvivorPerks(randomSurvivorPerks);
 
-        console.log(survivorPerks);
+        console.log("killer", randomKillerPerks);
+        console.log("surv", randomSurvivorPerks);
       })
       .catch((err) => console.error("Error loading perks:", err));
   }, []);
