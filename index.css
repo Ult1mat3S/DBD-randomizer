@@ -77,8 +77,3 @@ button {
 .dark button:hover {
   background-color: #141414;
 }
-
-.character-img {
-  width: 100px;
-  height: auto;
-}

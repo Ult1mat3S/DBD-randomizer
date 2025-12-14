@@ -1,30 +1,26 @@
 import { useEffect, useState } from "react";
 
-function ThemeSwitch() {
-  const [darkMode, setDarkMode] = useState(true);
-
+function ThemeSwitch({ darkMode, setDarkMode }) {
   function toggleTheme() {
     setDarkMode((prev) => !prev);
   }
 
   useEffect(() => {
     const html = document.documentElement;
-    html.classList.toggle("dark", darkMode);
-    html.classList.toggle("light", !darkMode);
-    localStorage.setItem("theme", darkMode ? "dark" : "light");
+
+    if (darkMode) {
+      html.classList.add("dark");
+      html.classList.remove("light");
+      localStorage.setItem("theme", "dark");
+    } else {
+      html.classList.add("light");
+      html.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
   }, [darkMode]);
 
-  useEffect(() => {
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
-      setDarkMode(true);
-    }
-  }, []);
-
   return (
-    <div className="flex justify-end mx-4">
+    <div className="m-2">
       <button
         type="button"
         onClick={toggleTheme}
