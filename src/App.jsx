@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import PerksCard from "./PerksCard";
-import Support from "./Support.jsx";
+// import Support from "./Support.jsx";
 import ThemeSwitch from "./ThemeSwitch.jsx";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
   const [survivorPerks, setSurvivorPerks] = useState([]);
   const [randomKiller, setRandomKiller] = useState([]);
   const [randomSurvivor, setRandomSurvivor] = useState([]);
+  const [offeringsArray, setOfferingsArray] = useState([]);
   const savedTheme = localStorage.getItem("theme");
   const [darkMode, setDarkMode] = useState(localStorage.getItem("theme") === "dark");
 
@@ -67,6 +68,23 @@ function App() {
   }, []);
 
   useEffect(() => {
+    // console.log(`${import.meta.env.BASE_URL}perks.json`);
+    fetch(`${import.meta.env.BASE_URL}items-addons-offerings.json`)
+      .then((res) => res.json())
+      .then((data) => {
+        const offerings = data.offerings;
+        const items = data.survivor.items;
+        const addons = data.survivor.addons;
+        const killerAddons = data.killer.addons;
+        const killerOfferings = data.killer.offerings;
+        const survivorOfferings = data.survivor.offerings;
+        setOfferingsArray(killerOfferings);
+        console.log(killerOfferings);
+      })
+      .catch((err) => console.error("Error loading offerings:", err));
+  }, []);
+
+  useEffect(() => {
     if (allKillerPerks.length > 0) {
       generateRandomKiller();
     }
@@ -81,16 +99,17 @@ function App() {
   return (
     <>
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-semibold mb-4 ">Random Perks</h1>
-        <Support darkMode={darkMode} />
+        <h1 className="text-2xl font-semibold mb-4">Random Perks</h1>
+        {/* <Support darkMode={darkMode} /> */}
         <ThemeSwitch darkMode={darkMode} setDarkMode={setDarkMode} />
       </div>
-      <h2> Killer</h2>
+      <h2 className="mt-10 mb-10 text-center">Killer</h2>
       <PerksCard perks={killerPerks} killer={randomKiller} />
       <button type="button" onClick={generateKillerPerks}>
         Generate
       </button>
-      <h2>Survivor</h2>
+
+      <h2 className="mt-10 mb-10 text-center">Survivor</h2>
       <PerksCard perks={survivorPerks} survivor={randomSurvivor} />
       <button type="button" onClick={generateSurvivorPerks}>
         Generate

@@ -182,7 +182,7 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png",
       "perkName": "Discordance",
       "description": "Any Generator within a range of 64 / 96 / 128 metres that is being repaired by 2 or more Survivors is marked by a yellow Aura . When the Generator is first highlighted, Discordance triggers a Loud Noise Notification on the Generator. After the Generator is no longer within range or is being repaired by just 1 Survivor , the highlighted Aura will linger for another 4 seconds . \"Smartasses get killed. We always see to that.\" — The Legion",
-      "character": "Frank, Julie, Susie, Joey",
+      "character": "Legion",
       "characterImage": "/images/5/53/K14_TheLegion_Portrait.png?f9a179"
     },
     {
@@ -229,7 +229,7 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png",
       "perkName": "Eruption",
       "description": "The NE-α parasite provides you with the intelligence and awareness needed to set a trap. Performing the Damage Generator action on a Generator applies Eruption : All affected Generators are highlighted to you in yellow . The next time any Survivor enters the Dying State by any means, all affected Generators explode and immediately start regressing, which removes the highlighted Aura. Instantly regresses the Generator by -10 % of its maximum possible Progression. Causes all Survivors repairing the afflicted Generators to scream and reveal their Aura to you for 8 / 10 / 12 seconds . Eruption has a cool-down of 30 seconds . \"It can use weapons?\" — Jill Valentine",
-      "character": "Nemesis T-Type",
+      "character": "Nemesis",
       "characterImage": "/images/6/67/K24_TheNemesis_Portrait.png?891941"
     },
     {
@@ -468,7 +468,7 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/3/3a/IconPerks_hysteria.png",
       "perkName": "Hysteria",
       "description": "\"You know how to brutalise one member of a team to cause a panic.\" Whenever you injure a healthy Survivor, Hysteria triggers its effect: Causes all Survivors currently in the Injured State to suffer from the Oblivious Status Effect for 30 / 35 / 40 seconds . This effect also applies the Survivor triggering it. Hysteria has a cool-down of 20 seconds . \"Sorry I got a little jumpy there. Didn't know quite what to expect.\" — Robert Kendo",
-      "character": "Nemesis T-Type",
+      "character": "Nemesis",
       "characterImage": "/images/6/67/K24_TheNemesis_Portrait.png?891941"
     },
     {
@@ -499,7 +499,7 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/b/b0/IconPerks_ironMaiden.png",
       "perkName": "Iron Maiden",
       "description": "Iron Maiden increases your Locker Search speed by 30 / 40 / 50 % . Survivors who exit a Locker suffer from the following afflictions: Scream and reveal their location to you for 4 seconds . Suffer from the Exposed Status Effect for 30 seconds . \"This is no place for cowards.\" — The Legion",
-      "character": "Frank, Julie, Susie, Joey",
+      "character": "Legion",
       "characterImage": "/images/5/53/K14_TheLegion_Portrait.png?f9a179"
     },
     {
@@ -520,7 +520,7 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png",
       "perkName": "Lethal Pursuer",
       "description": "You have been designed to track down and eliminate targets. At the start of the Trial, the Auras of all Survivors are revealed to you for 7 / 8 / 9 seconds . Extends the duration of all instances of a Survivor Aura being revealed to you by +2 seconds . Lethal Pursuer benefits from its own effect. \"...it knows what it wants and won't stop till it gets it.\" — Carlos Oliveira",
-      "character": "Nemesis T-Type",
+      "character": "Nemesis",
       "characterImage": "/images/6/67/K24_TheNemesis_Portrait.png?891941"
     },
     {
@@ -548,7 +548,7 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/d/da/IconPerks_madGrit.png",
       "perkName": "Mad Grit",
       "description": "Whenever you are carrying a Survivor, Mad Grit activates: Removes the Cool-down of missed Basic Attacks . Pauses the Wiggle Progression of the carried Survivor for 2 / 3 / 4 seconds each time you successfully hit another Survivor. \"There's no getting out of this now. We're too good at it.\" — The Legion",
-      "character": "Frank, Julie, Susie, Joey",
+      "character": "Legion",
       "characterImage": "/images/5/53/K14_TheLegion_Portrait.png?f9a179"
     },
     {

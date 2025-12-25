@@ -25,7 +25,7 @@ function ThemeSwitch({ darkMode, setDarkMode }) {
         type="button"
         onClick={toggleTheme}
         aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
-        className={`${darkMode ? "bg-black" : "bg-white"}`}
+        className={`${darkMode ? "bg-black" : "bg-white"} `}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
