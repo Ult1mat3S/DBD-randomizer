@@ -1,119 +1,78 @@
 import { useEffect, useState } from "react";
 import PerksCard from "./PerksCard";
-// import Support from "./Support.jsx";
 import ThemeSwitch from "./ThemeSwitch.jsx";
 
 function App() {
-  const [perksArray, setPerksArray] = useState([]);
   const [allSurvivorPerks, setAllSurvivorPerks] = useState([]);
   const [allKillerPerks, setAllKillerPerks] = useState([]);
+
   const [killerPerks, setKillerPerks] = useState([]);
   const [survivorPerks, setSurvivorPerks] = useState([]);
-  const [randomKiller, setRandomKiller] = useState([]);
-  const [randomSurvivor, setRandomSurvivor] = useState([]);
-  const [offeringsArray, setOfferingsArray] = useState([]);
-  const savedTheme = localStorage.getItem("theme");
+
+  const [randomKiller, setRandomKiller] = useState(null);
+  const [randomSurvivor, setRandomSurvivor] = useState(null);
+
   const [darkMode, setDarkMode] = useState(localStorage.getItem("theme") === "dark");
 
   function getRandomItems(arr, n) {
-    const shuffled = [...arr].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, n);
-  }
-
-  function generateSurvivorPerks() {
-    const randomSurvivorPerks = getRandomItems(allSurvivorPerks, 4);
-    setSurvivorPerks(randomSurvivorPerks);
-    generateRandomSurvivor();
-  }
-
-  function generateKillerPerks() {
-    const randomKillerPerks = getRandomItems(allKillerPerks, 4);
-    setKillerPerks(randomKillerPerks);
-    generateRandomKiller();
+    return [...arr].sort(() => 0.5 - Math.random()).slice(0, n);
   }
 
   function generateRandomKiller() {
-    const killers = allKillerPerks?.filter((k) => k.characterImage) || [];
-
-    const killer = killers[Math.floor(Math.random() * killers.length)];
-    setRandomKiller([killer]);
+    const killers = allKillerPerks.filter((k) => k.characterImage);
+    setRandomKiller(killers[Math.floor(Math.random() * killers.length)]);
   }
 
   function generateRandomSurvivor() {
-    const survivors = allSurvivorPerks?.filter((s) => s.characterImage) || [];
+    const survivors = allSurvivorPerks.filter((s) => s.characterImage);
+    setRandomSurvivor(survivors[Math.floor(Math.random() * survivors.length)]);
+  }
 
-    const survivor = survivors[Math.floor(Math.random() * survivors.length)];
-    setRandomSurvivor([survivor]);
+  function generateKillerPerks() {
+    setKillerPerks(getRandomItems(allKillerPerks, 4));
+    generateRandomKiller();
+  }
+
+  function generateSurvivorPerks() {
+    setSurvivorPerks(getRandomItems(allSurvivorPerks, 4));
+    generateRandomSurvivor();
   }
 
   useEffect(() => {
-    // console.log(`${import.meta.env.BASE_URL}perks.json`);
     fetch(`${import.meta.env.BASE_URL}perks.json`)
       .then((res) => res.json())
       .then((data) => {
-        const allPerks = [...data.killer, ...data.survivor];
-        const survPerks = data.survivor;
-        const killerPerks = data.killer;
-        setPerksArray(allPerks);
-        setAllKillerPerks(killerPerks);
-        setAllSurvivorPerks(survPerks);
-        const randomSurvivorPerks = getRandomItems(survPerks, 4);
-        const randomKillerPerks = getRandomItems(killerPerks, 4);
-        const randomKiller = getRandomItems(killerPerks, 1);
-        const randomSurvivor = getRandomItems(survPerks, 1);
-        setKillerPerks(randomKillerPerks);
-        setSurvivorPerks(randomSurvivorPerks);
+        setAllKillerPerks(data.killer);
+        setAllSurvivorPerks(data.survivor);
+
+        setKillerPerks(getRandomItems(data.killer, 4));
+        setSurvivorPerks(getRandomItems(data.survivor, 4));
       })
-      .catch((err) => console.error("Error loading perks:", err));
+      .catch(console.error);
   }, []);
 
   useEffect(() => {
-    // console.log(`${import.meta.env.BASE_URL}perks.json`);
-    fetch(`${import.meta.env.BASE_URL}items-addons-offerings.json`)
-      .then((res) => res.json())
-      .then((data) => {
-        const offerings = data.offerings;
-        const items = data.survivor.items;
-        const addons = data.survivor.addons;
-        const killerAddons = data.killer.addons;
-        const killerOfferings = data.killer.offerings;
-        const survivorOfferings = data.survivor.offerings;
-        setOfferingsArray(killerOfferings);
-        console.log(killerOfferings);
-      })
-      .catch((err) => console.error("Error loading offerings:", err));
-  }, []);
-
-  useEffect(() => {
-    if (allKillerPerks.length > 0) {
-      generateRandomKiller();
-    }
+    if (allKillerPerks.length) generateRandomKiller();
   }, [allKillerPerks]);
 
   useEffect(() => {
-    if (allSurvivorPerks.length > 0) {
-      generateRandomSurvivor();
-    }
+    if (allSurvivorPerks.length) generateRandomSurvivor();
   }, [allSurvivorPerks]);
 
   return (
     <>
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-semibold mb-4">Random Perks</h1>
-        {/* <Support darkMode={darkMode} /> */}
         <ThemeSwitch darkMode={darkMode} setDarkMode={setDarkMode} />
       </div>
-      <h2 className="mt-10 mb-10 text-center">Killer</h2>
-      <PerksCard perks={killerPerks} killer={randomKiller} />
-      <button type="button" onClick={generateKillerPerks}>
-        Generate
-      </button>
 
-      <h2 className="mt-10 mb-10 text-center">Survivor</h2>
+      <h2 className="mt-2 mb-2">Killer</h2>
+      <PerksCard perks={killerPerks} killer={randomKiller} />
+      <button onClick={generateKillerPerks}>Generate</button>
+
+      <h2 className="mt-2 mb-2">Survivor</h2>
       <PerksCard perks={survivorPerks} survivor={randomSurvivor} />
-      <button type="button" onClick={generateSurvivorPerks}>
-        Generate
-      </button>
+      <button onClick={generateSurvivorPerks}>Generate</button>
     </>
   );
 }
