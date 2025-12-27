@@ -39,7 +39,7 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png",
       "perkName": "Bamboozle",
       "description": "After vaulting a Window , Bamboozle calls upon The Entity to block that Window for the next 8 / 12 / 16 seconds . Blocked Windows cannot be vaulted by Survivors. Increases your general Vaulting speed by 5 / 10 / 15 % . Bamboozle only blocks one Window at a time and does not apply either of its effects to vaulting Pallets .",
-      "character": "Kenneth Chase",
+      "character": "Clown",
       "characterImage": "/images/d/d1/K12_TheClown_Portrait.png?26bd2a"
     },
     {
@@ -114,7 +114,7 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/4/45/IconPerks_coulrophobia.png",
       "perkName": "Coulrophobia",
       "description": "Even those without a fear of clowns know to be terrified of you. For all Survivors within your Terror Radius , the following effects apply: Reduces their Healing speed by 30 / 40 / 50 % . Increases the Rotation speed of Healing Skill Checks by +50 % .",
-      "character": "Kenneth Chase",
+      "character": "Clown",
       "characterImage": "/images/d/d1/K12_TheClown_Portrait.png?26bd2a"
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/d/d3/IconPerks_deadlock.png",
-      "perkName": "Deadlock",
+      "perkName": "Deadlock/No Holds Barred",
       "description": "Identical to No Holds Barred . \"Nobody escapes us.\" — Pinhead",
       "character": "Cenobite",
       "characterImage": "/images/3/3b/K25_TheCenobite_Portrait.png?6b9046"
@@ -278,8 +278,8 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/9/94/IconPerks_furtiveChase.png",
       "perkName": "Furtive Chase",
       "description": "\"You lurk in the shadows, eliminating your victims one by one.\" After hooking the Obsession , Furtive Chase triggers its primary effects for 14 / 16 / 18 seconds : Grants the Undetectable Status Effect . Grants a +10 % Haste Status Effect . After the Obsession is rescued from the Hook , Furtive Chase triggers its secondary effect: Causes the Obsession status to transfer to the Rescuer. You can only be obsessed with one Survivor at a time. \"You have no idea what I have planned for you. It'll be in the news for weeks. I'll make sure of that.\" — The Ghost Face",
-      "character": "Danny Johnson",
-      "characterImage": "/images/d/d1/K16_TheGhostFace_Portrait.png?5a4629"
+      "character": "Ghost Face",
+      "characterImage": "/images/d/d1/K16_TheGhost Face_Portrait.png?5a4629"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_gameAfoot.png",
@@ -352,11 +352,6 @@
       "characterImage": "/images/6/69/K30_TheKnight_Portrait.png?b89c9d"
     },
     {
-      "perkImage": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png",
-      "perkName": "Hex: Fortune's Fool",
-      "description": "\"A Hex that toys with a victim's suffering.\" Each time you hook a Survivor for the first time, if there is at least one Dull Totem in the environment, Hex: Fortune's Fool activates and lights a Hex Totem : Causes that Survivor to suffer permanently from the Oblivious Status Effect . Blocks their Hex Totem from being cleansed by any other Survivor for 90 seconds . The Aura of their Hex Totem is revealed to the Cursed Survivor within 24 / 20 / 16 metres . All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed."
-    },
-    {
       "perkImage": "https://deadbydaylight.wiki.gg/images/c/c4/IconPerks_hexHauntedGround.png",
       "perkName": "Hex: Haunted Ground",
       "description": "At the start of the Trial, Hex: Haunted Ground spawns 2 Hex Totems in the environment. When either Hex Totem is blessed or cleansed by a Survivor, the following effects apply: Causes all Survivors to suffer from the Exposed Status Effect for 40 / 50 / 60 seconds . Transforms the second Hex Totem into a Dull Totem . \"Her home become profane.\"",
@@ -391,7 +386,7 @@
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png",
-      "perkName": "Hex: Plaything",
+      "perkName": "Hex: Plaything/Hex: Fortune's Fool",
       "description": "Identical to Hex: Fortune's Fool . \"We came. Now you must come with us. Taste our pleasure.\" — Pinhead",
       "character": "Cenobite",
       "characterImage": "/images/3/3b/K25_TheCenobite_Portrait.png?6b9046"
@@ -475,8 +470,8 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/e/e3/IconPerks_imAllEars.png",
       "perkName": "I'm All Ears",
       "description": "\"You sharpen your keen senses in the dark Realm of The Entity .\" Whenever a Survivor performs a Rushed Vault action within 48 metres of your location, you benefit from the following effect: The Aura of the Survivor is revealed to you for 8 seconds . I'm All Ears has a cool-down of 60 / 45 / 30 seconds . \"There is no need to worry. I've been preparing my whole life for this.\" — The Ghost Face",
-      "character": "Danny Johnson",
-      "characterImage": "/images/d/d1/K16_TheGhostFace_Portrait.png?5a4629"
+      "character": "Ghost Face",
+      "characterImage": "/images/d/d1/K16_TheGhost Face_Portrait.png?5a4629"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/6/6d/IconPerks_infectiousFright.png",
@@ -587,11 +582,6 @@
       "characterImage": "/images/8/80/K18_TheOni_Portrait.png?22e37f"
     },
     {
-      "perkImage": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png",
-      "perkName": "No Holds Barred",
-      "description": "\"You induce mental suffering by crushing any hope of escape.\" Each time a Generator is completed, No Holds Barred calls upon The Entity for the following effects: Blocks the Generator with the most Progression for 15 / 20 / 25 seconds . The Aura of the Blocked Generator is highlighted to you in white ."
-    },
-    {
       "perkImage": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_noQuarter.png",
       "perkName": "No Quarter",
       "description": "\"Every skirmish ended with a relentless volley of cannon fire, leaving no doubt who was superior.\" Whenever a Survivor healing themselves by any means reaches 75 % Healing Progress, No Quarter triggers its effect: The Survivor is faced with a continuous stream of Skill Checks until the Self-Heal is completed. If they fail a Skill Check or interrupt the action by any means, they suffer from the Broken Status Effect for 20 / 25 / 30 seconds . \"Fire another broadside! Don't stop until the sea takes them!\" — Portia Maye",
@@ -658,7 +648,7 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png",
       "perkName": "Pop Goes the Weasel",
       "description": "A deep bond with The Entity unlocks great strength. After hooking a Survivor, Pop Goes the Weasel activates for 35 / 40 / 45 seconds . Perform the Damage Generator action while Pop Goes the Weasel is active to benefit from the following effect: Instantly regresses the damaged Generator by -20 % of its current Progression. Pop Goes the Weasel deactivates after the Generator is damaged or once the timer runs out.",
-      "character": "Kenneth Chase",
+      "character": "Clown",
       "characterImage": "/images/d/d1/K12_TheClown_Portrait.png?26bd2a"
     },
     {
@@ -705,7 +695,7 @@
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/2/26/IconPerks_scourgeHookGiftOfPain.png",
-      "perkName": "Scourge Hook: Gift of Pain",
+      "perkName": "Scourge Hook: Gift of Pain/Scourge Hook: Weeping Wounds",
       "description": "Identical to Scourge Hook: Weeping Wounds . \"We will tear your soul apart.\" — Pinhead",
       "character": "Cenobite",
       "characterImage": "/images/3/3b/K25_TheCenobite_Portrait.png?6b9046"
@@ -837,8 +827,8 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/b/b8/IconPerks_thrillingTremors.png",
       "perkName": "Thrilling Tremors",
       "description": "\"Your dark designs and shrewd composure rouse The Entity .\" After picking up a Survivor, Thrilling Tremors triggers its effects: Blocks all Generators not currently being repaired by any Survivors for 16 seconds . The Auras of Blocked Generators are highlighted to you in white . Thrilling Tremors has a cool-down of 40 / 35 / 30 seconds . \"The night assists me and it's endless here.\" — The Ghost Face",
-      "character": "Danny Johnson",
-      "characterImage": "/images/d/d1/K16_TheGhostFace_Portrait.png?5a4629"
+      "character": "Ghost Face",
+      "characterImage": "/images/d/d1/K16_TheGhost Face_Portrait.png?5a4629"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_thwack.png",
@@ -919,6 +909,11 @@
       "description": "\"You are mentally alert and aware of key points on the battlefield and nearby enemies in retreat.\" Unlocks potential in your Aura-reading ability: The Auras of Pallets and Windows are revealed to you within 32 metres . Whenever a Survivor drops a Pallet , Zanshin Tactics triggers the following effect: Their Aura is revealed to you for 3 / 4 / 5 seconds . \"Within your enemy's strength is weakness.\" — Renjiro's Doctrine 12:5",
       "character": "Oni",
       "characterImage": "/images/8/80/K18_TheOni_Portrait.png?22e37f"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/d/d3/IconPerks_zanshinTactics.png",
+      "perkName": "Any",
+      "description": "Pick any perk"
     }
   ],
   "survivor": [
@@ -1999,6 +1994,11 @@
       "description": "You know that the best way to stay one step ahead is to keep tabs on the competition. After repairing Generators for a total of 40 % , Wiretap activates: Press the Active Ability button while near a partially progressed Generator to install a Trap , which stays active for 100 / 110 / 120 seconds . Whenever the Killer comes within 14 metres of the Trapped Generator their Aura is revealed to all Survivors. Wiretap deactivates after the Generator is damaged or once the timer runs out. The Auras of Trapped Generators are revealed to all Survivors in yellow .",
       "character": "Ada Wong",
       "characterImage": "/images/5/5e/S32_AdaWong_Portrait.png?1073d0"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/2/23/IconPerks_wiretap.png",
+      "perkName": "Any",
+      "description": "Pick any perk"
     }
   ]
 }
