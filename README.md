@@ -2,7 +2,9 @@
 
 ## Installation 
 Clone with git or download the zip
+
 Go to the folder
+
 Run "pnpm i/npm i" then "pnpm run dev/npm run dev"
 
 Pnpm: https://pnpm.io/installation
