@@ -1,4 +1,4 @@
-# Useing React + Vite
+# Using React + Vite
 
 ## Installation 
 Clone with git or download the zip
