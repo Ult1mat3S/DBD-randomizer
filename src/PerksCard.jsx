@@ -1,3 +1,8 @@
+const html = document.documentElement;
+
+const hideNames = localStorage.getItem("hideOwnerNames");
+console.log(hideNames);
+
 function PerksCard({ perks, killer, survivor }) {
   return (
     <div className="flex flex-col p-1 items-center text-center">
@@ -26,7 +31,7 @@ function PerksCard({ perks, killer, survivor }) {
       <div className="flex gap-2">
         {perks.map((perk, index) => (
           <div key={index} className="flex flex-col p-1 items-center">
-            <p>{perk.character ?? "Universal Perk"}</p>
+            {/* <p>{perk.character ?? "Universal Perk"}</p> */}
             <img src={perk.perkImage} alt={perk.perkName} className="w-16 h-16 object-contain hover:scale-110" />
             <span>{perk.perkName}</span>
           </div>
