@@ -56,8 +56,12 @@ button {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #a4a2a2;
   }
+}
+
+a:hover {
+  color: #a4a2a2;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));

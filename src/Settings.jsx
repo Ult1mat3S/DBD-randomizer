@@ -32,6 +32,7 @@ function Settings() {
 
   return (
     <>
+      <h1 className="text-2xl font-semibold mb-4">Settings</h1>
       <form className="flex flex-col" method="post" onSubmit={handleSubmit}>
         <button type="button" onClick={() => navigate(-1)} className="max-w-24">
           Back

@@ -471,7 +471,7 @@
       "perkName": "I'm All Ears",
       "description": "\"You sharpen your keen senses in the dark Realm of The Entity .\" Whenever a Survivor performs a Rushed Vault action within 48 metres of your location, you benefit from the following effect: The Aura of the Survivor is revealed to you for 8 seconds . I'm All Ears has a cool-down of 60 / 45 / 30 seconds . \"There is no need to worry. I've been preparing my whole life for this.\" — The Ghost Face",
       "character": "Ghost Face",
-      "characterImage": "/images/d/d1/K16_TheGhost Face_Portrait.png?5a4629"
+      "characterImage": "/images/d/d1/K16_TheGhostFace_Portrait.png?5a4629"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/6/6d/IconPerks_infectiousFright.png",
@@ -828,7 +828,7 @@
       "perkName": "Thrilling Tremors",
       "description": "\"Your dark designs and shrewd composure rouse The Entity .\" After picking up a Survivor, Thrilling Tremors triggers its effects: Blocks all Generators not currently being repaired by any Survivors for 16 seconds . The Auras of Blocked Generators are highlighted to you in white . Thrilling Tremors has a cool-down of 40 / 35 / 30 seconds . \"The night assists me and it's endless here.\" — The Ghost Face",
       "character": "Ghost Face",
-      "characterImage": "/images/d/d1/K16_TheGhost Face_Portrait.png?5a4629"
+      "characterImage": "/images/d/d1/K16_TheGhostFace_Portrait.png?5a4629"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_thwack.png",
@@ -914,6 +914,11 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/IconModifier_chaosShuffle.png",
       "perkName": "Any",
       "description": "Pick any perk of your choosing"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
+      "perkName": "None",
+      "description": "Nothing"
     }
   ],
   "survivor": [
@@ -1999,6 +2004,11 @@
       "perkImage": "https://deadbydaylight.wiki.gg/images/IconModifier_chaosShuffle.png",
       "perkName": "Any",
       "description": "Pick any perk of your choosing"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
+      "perkName": "None",
+      "description": "Nothing"
     }
   ]
 }

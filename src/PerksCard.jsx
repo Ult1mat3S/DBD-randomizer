@@ -1,7 +1,5 @@
-const html = document.documentElement;
-
 const hideNames = localStorage.getItem("hideOwnerNames");
-console.log(hideNames);
+// console.log(hideNames);
 
 function PerksCard({ perks, killer, survivor }) {
   return (
@@ -32,7 +30,12 @@ function PerksCard({ perks, killer, survivor }) {
         {perks.map((perk, index) => (
           <div key={index} className="flex flex-col p-1 items-center">
             {/* <p>{perk.character ?? "Universal Perk"}</p> */}
-            <img src={perk.perkImage} alt={perk.perkName} className="w-16 h-16 object-contain hover:scale-110" />
+            <img
+              src={perk.perkImage}
+              alt={perk.perkName}
+              className="w-16 h-16 object-contain hover:scale-110"
+              title={perk.character ?? "Universal Perk"}
+            />
             <span>{perk.perkName}</span>
           </div>
         ))}
