@@ -75,25 +75,27 @@ function App() {
           <Route
             path="/"
             element={
-              <>
-                <h1 className="text-2xl font-semibold mb-4">(WIP) Dead By Daylight Randomizer</h1>
-                <h2 className="mt-2 mb-2">Killer</h2>
+              <div className="items-center text-center">
+                <h1 className="text-2xl font-semibold mb-10 ">Dead By Daylight Randomizer</h1>
                 <PerksCard perks={killerPerks} killer={randomKiller} />
-                <button onClick={generateKillerPerks}>Generate</button>
-                <h2 className="mt-2 mb-2">Survivor</h2>
+                <button onClick={generateKillerPerks} className="mb-20">
+                  Generate
+                </button>
+
                 <PerksCard perks={survivorPerks} survivor={randomSurvivor} />
-                <button onClick={generateSurvivorPerks}>Generate</button>
-              </>
+                <button onClick={generateSurvivorPerks} className="mb-20">
+                  Generate
+                </button>
+              </div>
             }
           />
           <Route path="/settings" element={<Settings />} />
         </Routes>
       </Router>
 
-      <footer className="z-50 text-center m-2">
+      <footer className="text-center m-2">
         Made by <a href="https://github.com/Ult1mat3S">Ultimate</a> |
         <a href="https://github.com/Ult1mat3S/DBD-randomizer"> Github Repo</a>
-        <br />
       </footer>
     </>
   );

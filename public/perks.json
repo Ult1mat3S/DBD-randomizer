@@ -161,7 +161,7 @@
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/d/d3/IconPerks_deadlock.png",
-      "perkName": "Deadlock/No Holds Barred",
+      "perkName": "Deadlock",
       "description": "Identical to No Holds Barred . \"Nobody escapes us.\" — Pinhead",
       "character": "Cenobite",
       "characterImage": "/images/3/3b/K25_TheCenobite_Portrait.png?6b9046"
@@ -386,7 +386,7 @@
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png",
-      "perkName": "Hex: Plaything/Hex: Fortune's Fool",
+      "perkName": "Hex: Plaything",
       "description": "Identical to Hex: Fortune's Fool . \"We came. Now you must come with us. Taste our pleasure.\" — Pinhead",
       "character": "Cenobite",
       "characterImage": "/images/3/3b/K25_TheCenobite_Portrait.png?6b9046"
@@ -695,7 +695,7 @@
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/2/26/IconPerks_scourgeHookGiftOfPain.png",
-      "perkName": "Scourge Hook: Gift of Pain/Scourge Hook: Weeping Wounds",
+      "perkName": "Scourge Hook: Gift of Pain",
       "description": "Identical to Scourge Hook: Weeping Wounds . \"We will tear your soul apart.\" — Pinhead",
       "character": "Cenobite",
       "characterImage": "/images/3/3b/K25_TheCenobite_Portrait.png?6b9046"
@@ -725,11 +725,6 @@
       "description": "Overwhelming pain reverberates outwards. At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks : The Auras of these Scourge Hooks are highlighted in white . Start the Trial with 4 Token . Whenever a Survivor is hooked onto a Scourge Hook for the first time, Scourge Hook: Pain Resonance consumes -1 Token and applies the following effects: Causes the Generator with the most progression to explode, damaging it. Instantly regresses the damaged Generator by 10 / 15 / 20 % of its total Progression. Causes the damaged Generator to start regressing afterwards. Causes all Survivors repairing the damaged Generator to scream. This does not trigger a Loud Noise Notification . Scourge Hook: Pain Resonance is disabled for the remainder of the Trial once all Tokens are consumed. \"The pain spills beyond flesh/darkness staining the horizon.\" — Girl in the Shadow by Carmina Mora",
       "character": "Artist",
       "characterImage": "/images/0/01/K26_TheArtist_Portrait.png?594628"
-    },
-    {
-      "perkImage": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png",
-      "perkName": "Scourge Hook: Weeping Wounds",
-      "description": "\"You are the bringer of sweet pain.\" At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks : The Auras of these Scourge Hooks are highlighted in white . Each time a Survivor is unhooked from a Scourge Hook , the following effects apply: Causes that Survivor to suffer from the Haemorrhage Status Effect for 90 seconds . After the first time that Survivor is healed back to full health, they suffer from the following effect until they are injured again by any means: Reduces their Action speeds for Healing and Repairing by 10 / 13 / 16 % ."
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/d/d8/IconPerks_septicTouch.png",

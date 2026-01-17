@@ -3,7 +3,7 @@ const hideNames = localStorage.getItem("hideOwnerNames");
 
 function PerksCard({ perks, killer, survivor }) {
   return (
-    <div className="flex flex-col p-1 items-center text-center">
+    <div className="flex flex-col p-1 items-center text-center ">
       {killer?.characterImage && (
         <div className="mb-4">
           <p>{killer.character}</p>
@@ -11,6 +11,8 @@ function PerksCard({ perks, killer, survivor }) {
             src={`https://deadbydaylight.wiki.gg${killer.characterImage}`}
             alt={killer.character}
             className="w-40 object-contain block"
+            width={512}
+            height={512}
           />
         </div>
       )}
@@ -26,7 +28,7 @@ function PerksCard({ perks, killer, survivor }) {
         </div>
       )}
 
-      <div className="flex gap-2">
+      <div className="flex gap-2 w-90 ">
         {perks.map((perk, index) => (
           <div key={index} className="flex flex-col p-1 items-center">
             {/* <p>{perk.character ?? "Universal Perk"}</p> */}
@@ -36,7 +38,7 @@ function PerksCard({ perks, killer, survivor }) {
               className="w-16 h-16 object-contain hover:scale-110"
               title={perk.character ?? "Universal Perk"}
             />
-            <span>{perk.perkName}</span>
+            <div>{perk.perkName}</div>
           </div>
         ))}
       </div>
