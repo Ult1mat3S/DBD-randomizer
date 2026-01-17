@@ -28,7 +28,7 @@ function PerksCard({ perks, killer, survivor }) {
         </div>
       )}
 
-      <div className="flex gap-2 w-90 ">
+      <div className="flex gap-2 w-90 h-40">
         {perks.map((perk, index) => (
           <div key={index} className="flex flex-col p-1 items-center">
             {/* <p>{perk.character ?? "Universal Perk"}</p> */}
