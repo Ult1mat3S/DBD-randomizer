@@ -359,6 +359,13 @@
       "characterImage": "/images/f/f1/K13_TheSpirit_Portrait.png?c6efeb"
     },
     {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/IconsPerks_HexHiveMind.png",
+      "perkName": "Hex: Hive Mind",
+      "description": "\"You found yourself connected to something dark and unknowable... and you embraced it.\"\nThe first time you hook any Survivor, a random Dull Totem becomes a Hex Totem, provided that a Dull Totem remains in the Trial Grounds.\nGenerators are highlighted; the intensity of the generator's Auras reveals their repair progress.\nAs soon as a total of 4 generators have been completed in the Trial:\nAll remaining generators explode, lose 6/8/10 seconds progess, and start regressing.\nThe associated Hex Totem becomes dull, and this perk becomes disabled for the remainder of the trial.\nThe Hex Effects persist until the Hex Totem is either blessed or cleansed by a Survivor, disabling it for the remainder of the Trial.\n\"You... let us in. And now, you are going to have to let us stay\" — Henry Creel",
+      "character": "First",
+      "characterImage": "/images/K42_TheFirst_Portrait.png?90c96a"
+    },
+    {
       "perkImage": "https://deadbydaylight.wiki.gg/images/1/11/IconPerks_hexHuntressLullaby.png",
       "perkName": "Hex: Huntress Lullaby",
       "description": "A Hex rooting its power in despair. Your hunt is an irresistible song of dread which muddles your prey's attention. Increases the default Progression penalty incurred by Failed Skill Checks by 2 / 4 / 6 % . This only affects Healing and Repairing actions. Whenever a Survivor is hooked, Hex: Huntress Lullaby grows in power and gains +1 Token , up to a maximum of 5 Tokens : Increasingly shortens the time between an affected incoming Skill Check appearing and triggering its audio cue beforehand: 1 Token : -14 % 2 Tokens : -28 % 3 Tokens : -42 % 4 Tokens : -56 % 5 Tokens : Suppresses the audio cue altogether. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"That song, it drives me crazy!\"",
@@ -700,6 +707,7 @@
       "character": "Cenobite",
       "characterImage": "/images/3/3b/K25_TheCenobite_Portrait.png?6b9046"
     },
+
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/9/9a/IconPerks_scourgeHookHangmansTrick.png",
       "perkName": "Scourge Hook: Hangman's Trick",
@@ -725,6 +733,13 @@
       "description": "Overwhelming pain reverberates outwards. At the start of the Trial, 4 Hooks in the environment are changed into Scourge Hooks : The Auras of these Scourge Hooks are highlighted in white . Start the Trial with 4 Token . Whenever a Survivor is hooked onto a Scourge Hook for the first time, Scourge Hook: Pain Resonance consumes -1 Token and applies the following effects: Causes the Generator with the most progression to explode, damaging it. Instantly regresses the damaged Generator by 10 / 15 / 20 % of its total Progression. Causes the damaged Generator to start regressing afterwards. Causes all Survivors repairing the damaged Generator to scream. This does not trigger a Loud Noise Notification . Scourge Hook: Pain Resonance is disabled for the remainder of the Trial once all Tokens are consumed. \"The pain spills beyond flesh/darkness staining the horizon.\" — Girl in the Shadow by Carmina Mora",
       "character": "Artist",
       "characterImage": "/images/0/01/K26_TheArtist_Portrait.png?594628"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/IconsPerks_SecretProject.png",
+      "perkName": "Secret Project",
+      "description": "\"Raised to be weapon, you broke free with the very skills your captors honed within you.\"\nWhenever a Totem is blessed or cleansed, a random unblocked generator becomes blocked for  20/25/30 seconds.\nWhenever any number of Generators become blocked, you gain Undetectable Status Effect for 30 seconds.\n\"You are a prisoner here, just like me\" — Henry Creel",
+      "character": "First",
+      "characterImage": "/images/K42_TheFirst_Portrait.png?90c96a"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/d/d8/IconPerks_septicTouch.png",
@@ -845,6 +860,13 @@
       "description": "You guide your victims along a path of pain and punishment. Performing the Damage Generator action on a Generator activates Trail of Torment : Grants the Undetectable Status Effect until the Generator stops regressing. The Aura of the damaged Generator is revealed to all Survivors in yellow . Trail of Torment has a cool-down of 60 / 45 / 30 seconds .",
       "character": "Executioner",
       "characterImage": "/images/c/c9/K20_TheExecutioner_Portrait.png?286cd2"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/IconsPerks_TurnBackTheClock.png",
+      "perkName": "Turn Back the Clock",
+      "description": "\"Resist as they might, time marches on, and your master plan comes closer to fruition.\"\nAfter hooking a Survivor, for 40/50/60 seconds, press the Active Ability button to make a target generator within 20 meters explode, lose -10 % progress, and start regressing.\n\"Nothing will happen to you... Nothing that you don't deserve!\" — Henry Creel",
+      "character": "First",
+      "characterImage": "/images/K42_TheFirst_Portrait.png?90c96a"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/8/8a/IconPerks_ultimateWeapon.png",
@@ -986,6 +1008,13 @@
       "description": "You are not usually the centre of attention and in some cases, this can be a good thing. Whenever another Survivor is picked up, Background Player activates for 10 seconds . Starting to run while it is active causes the following effect: Grants a +50 % Haste Status Effect for 5 seconds . Background Player causes the Exhausted Status Effect for 30 / 25 / 20 seconds . Background Player cannot be used when Exhausted . \"You forget about me?\" — Renato Lyra",
       "character": "Renato Lyra",
       "characterImage": "/images/6/69/S36_RenatoLyra_Portrait.png?d20521"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/IconsPerks_BadaBadaBoom.png",
+      "perkName": "Bada Bada Boom",
+      "description": "\"You may not be a fighter, but you have clever ways of striking back.\"\nAfter completing 20 % worth of Generator repairs, Bada Bada Boom activates:\nWhile active, press Active Ability button next to a window to install a Trap, which stays active for up to 40/50/60 seconds.\nThe Trap tiggers when the Killer performs a vault through the window, causing the Killer to suffer from a -50 % Hindered Status Effect for 6 seconds.\nBada Bada Boom deactives after triggering successfully or once the timer runs out.\nThe Auras of Trapped Windows are revealed to all Survivors in yellow.\n\"Never tell me the odds.\" — Dustin Henderson",
+      "character": "Dustin Henderson",
+      "characterImage": "/images/S50_DustinHenderson_Portrait.png?4e9836"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/5/5e/IconPerks_balancedLanding.png",
@@ -1154,6 +1183,13 @@
       "description": "\"The glow of the Flashlight looks a little different, feels a little warmer.\" While shining a Flashlight , Champion of Light triggers its primary effect: Grants a +50 % Haste Status Effect . After blinding the Killer by any means, Champion of Light triggers its secondary effect: Causes the Killer to suffer from a -20 % Hindered Status Effect for 6 seconds . This effect does not stack. Champion of Light applies a cool-down of 60 / 50 / 40 seconds after blinding the Killer. \"I squeezed the Flashlight like my life depended on it, willing it to stop coming any closer.\" — Departure",
       "character": "Alan Wake",
       "characterImage": "/images/4/43/S40_AlanWake_Portrait.png?600f97"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/IconsPerks_ChangeOfPlan.png",
+      "perkName": "Change of Plan",
+      "description": "\"Rather than give in to danger, you recalculate and adjust your strategy.\"\nYou start the Trial with 2 Tokens.\nWhile hiding inside a Locker and holding a non-event Toolbox, press Active Ability button to spend 1 Token and transform your Error into a Med-Kit of the same rarity with a random add-on of the same rarity.\nThe new Med-kit has 80/90/100 seconds of its charges.\n\"Oh my god, oh my god, oh my god, oh my god.\" — Dustin Henderson",
+      "character": "Dustin Henderson",
+      "characterImage": "/images/S50_DustinHenderson_Portrait.png?4e9836"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/9/9a/IconPerks_chemicalTrap.png",
@@ -1325,6 +1361,13 @@
       "description": "Unlocks potential in your Aura-reading ability: The Auras of injured or dying Survivors are revealed to you within 64 / 96 / 128 metres .",
       "character": "Claudette Morel",
       "characterImage": "/images/c/c2/S03_ClaudetteMorel_Portrait.png?5063f0"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/IconsPerks_ExtrasensoryPerception.png",
+      "perkName": "Extrasensory Perception",
+      "description": "\"By slowing down and focusing, you can sense both ally and enemy.\"\nCrouch for 4 seconds to activate this perk. While active:\nYou see the Auras of Survivors, the Killer, and a variety of objects. These are revealed in an expanding 44 meter radius.\n*Revealed objects include Chests, Exit Gate, Generators, Hatch, Items, Pallets, Totems, and Windows.\nYou gain Elusive and Oblivious Status Effects.\nWhen you stop crouching, or after 11 seconds, all effects of this perk end and it enters a 60/50/40 seconds cooldown.\n\"What is friend?\" — Eleven",
+      "character": "Eleven",
+      "characterImage": "/images/S51_Eleven_Portrait.png?f6af5a"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/2/22/IconPerks_Exultation.png",
@@ -1874,11 +1917,25 @@
       "characterImage": "/images/6/69/S36_RenatoLyra_Portrait.png?d20521"
     },
     {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/IconsPerks_TeamworkFullCircuit.png",
+      "perkName": "Teamwork: Full Circuit",
+      "description": "\"You've dabbled with mechanical engineering and show off your abilities to others.\"\nFor each Survivor repairing a generator with you, the size of the good Skill Check zone is increased by 15/20/25 seconds%.\nWhile repairing with at least 1 other Survivor, you repair 5 % faster.\n\"How many times do I have to be right on the money before you guys just trust me?\" — Dustin Henderson",
+      "character": "Dustin Henderson",
+      "characterImage": "/images/S50_DustinHenderson_Portrait.png?4e9836"
+    },
+    {
       "perkImage": "https://deadbydaylight.wiki.gg/images/2/2b/IconPerks_teamworkPowerOfTwo.png",
       "perkName": "Teamwork: Power of Two",
       "description": "It is hard to keep up with you, but it does not stop people from trying. Whenever you finish healing another Survivor, Teamwork: Power of Two activates, and both you and the healed Survivor benefit from the following effect: Grants a +5 % Haste Status Effect for as long as you stay within 8 / 12 / 16 metres of one another. This effect lingers for 4 seconds once out of range and resumes upon re-entering it before that timer elapses. Survivors can only be affected by one instance of Teamwork: Power of Two at a time. \"You good? Then keep up!\" — Thalita Lyra",
       "character": "Thalita Lyra",
       "characterImage": "/images/9/96/S35_ThalitaLyra_Portrait.png?fcbd38"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/IconsPerks_TeamworkSoftSpoken.png",
+      "perkName": "Teamwork: Soft-Spoken",
+      "description": "\"You look out for your friends, using your abilities to protect them.\"\nFor each other Survivor repairing a Generator with you, the range at which the Generator's repair noise is heard is reduced by 15/20/25 seconds%.\nWhile repairing with at least 1 other Survivor, you repair 5 % faster.\n\"I make my own rules.\" — Eleven",
+      "character": "Eleven",
+      "characterImage": "/images/S51_Eleven_Portrait.png?f6af5a"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/7/7c/IconPerks_teamworkThrowDown.png",
@@ -1961,6 +2018,13 @@
       "description": "Unlocks potential in your Aura-reading ability: Once all Generators are completed, Wake Up! activates: The Auras of the Exit Gate Switches are revealed to you permanently while within 128 metres . Your Aura is revealed to all other Survivors within 128 metres while you are opening an Exit Gate . Increases your Gate-Opening speed by a stack-able 8 / 10 / 12.5 % for each Survivor still alive in the Trial, including yourself, up to a maximum of 32 / 40 / 50 % . \"Ok, look. If we survive the next 24 hours, then I'll take you out on a real date.\" — Quentin Smith",
       "character": "Quentin Smith",
       "characterImage": "/images/4/40/S11_QuentinSmith_Portrait.png?61f716"
+    },
+    {
+      "perkImage": "https://deadbydaylight.wiki.gg/images/IconsPerks_WeSeeYou.png",
+      "perkName": "We See You",
+      "description": "\"BYou've honed your powers and can turn the tables on those who try to find you.\"\nGain 1 token when the Killer reveals your Aura.\nWhen you have 4 tokens, they are all consumed, and the Killer's aura is revealed to you and all other Survivors for 10/12.5/15 seconds.\nThis perk has a 10-second cooldown for gaining tokens.\n\"It is not me. It is you. You are the monster.\" — Eleven",
+      "character": "Eleven",
+      "characterImage": "/images/S51_Eleven_Portrait.png?f6af5a"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/8/8a/IconPerks_wellMakeIt.png",
