@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "name": "Flashlight",
+      "itemKey": "flashlight",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_flashlight.png",
+      "rarity": "Uncommon",
+      "description": "A standard Flashlight.<br>Can be used to light your way in the darkness.\n<ul><li>Press the <i>Use Item button</i> to light the <i>Flashlight</i> for up to <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">8 seconds</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Most of the battery life was wastefully used by the previous owner.\"</span></i>\n</p>"
+    },
+    {
+      "name": "Sport Flashlight",
+      "itemKey": "sport flashlight",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_sportFlashlight.png",
+      "rarity": "Rare",
+      "description": "A very portable Flashlight with a good grip.<br>Its efficient technology produces a powerful light while consuming less power.\n<ul><li>Press the <i>Use Item button</i> to light the <i>Flashlight</i> for up to <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">8 seconds</span></b>.</li>\n<li>Has an <b>increased</b> Aim accuracy of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+20&nbsp;%</span></b>.</li>\n<li>Has a <b>reduced</b> Depletion rate of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-11&nbsp;%</span></b>.</li></ul>"
+    },
+    {
+      "name": "Utility Flashlight",
+      "itemKey": "utility flashlight",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_utilityFlashlight.png",
+      "rarity": "Very Rare",
+      "description": "A sturdy but heavy Flashlight that packs a lot of power.\n<ul><li>Press the <i>Use Item button</i> to light the <i>Flashlight</i> for up to <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">12 seconds</span></b>.</li>\n<li>Has an <b>increased</b> Beam brightness of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+30&nbsp;%</span></b>.</li>\n<li>Has an <b>increased</b> Blindness duration of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">+15&nbsp;%</span></b>.</li>\n<li>Has a <b>reduced</b> Aim accuracy of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">-20&nbsp;%</span></b>.</li></ul>"
+    },
+    {
+      "name": "Camping Aid Kit",
+      "itemKey": "camping aid kit",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_campingAidKit.png",
+      "rarity": "Common",
+      "description": "A first-aid kit containing basic equipment to treat minor injuries.\n<ul><li>Unlocks the <b>Self-Heal</b> action.</li>\n<li>Increases the <b>Altruistic Healing</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+35&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">16 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "First Aid Kit",
+      "itemKey": "first aid kit",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_firstAidKit.png",
+      "rarity": "Uncommon",
+      "description": "A common First Aid Kit containing the necessary equipment to treat minor to moderate injuries.\n<ul><li>Unlocks the <b>Self-Heal</b> action.</li>\n<li>Increases the <b>Altruistic Healing</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+40&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">24 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "Emergency Med-Kit",
+      "itemKey": "emergency med-kit",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_emergencyMedKit.png",
+      "rarity": "Rare",
+      "description": "A Med-Kit equipped with high-standard medical equipment.\n<ul><li>Unlocks the <b>Self-Heal</b> action.</li>\n<li>Increases the <b>Altruistic Healing</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+45&nbsp;%</span></b>.</li>\n<li>Increases the <b>Self-Healing</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+10&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">24 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "Ranger Med-Kit",
+      "itemKey": "ranger med-kit",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_rangerMedKit.png",
+      "rarity": "Very Rare",
+      "description": "A large metal box containing various medical supplies used in extreme conditions.\n<ul><li>Unlocks the <b>Self-Heal</b> action.</li>\n<li>Increases the <b>Altruistic Healing</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+50&nbsp;%</span></b>.</li>\n<li>Increases the <b>Success zone</b> of Healing Skill Checks by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+14&nbsp;%</span></b>.</li>\n<li>Increases the <b>Great Success zone</b> of Healing Skill Checks by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+15&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">32 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "Worn-Out Tools",
+      "itemKey": "worn-out tools",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_wornOutTools.png",
+      "rarity": "Common",
+      "description": "A small set of tools, most of them worn out or broken.\n<ul><li>Unlocks the <b>Repair</b> action.</li>\n<li>Increases the <b>Repair</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+50&nbsp;%</span></b>.</li>\n<li>Decreases the <b>Success zone</b> of Skill Checks by <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-10&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">16 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "Toolbox",
+      "itemKey": "toolbox",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_toolbox.png",
+      "rarity": "Uncommon",
+      "description": "A metal box containing a set of basic tools.\n<ul><li>Unlocks the <b>Repair</b> and <b>Sabotage</b> actions.</li>\n<li>Increases the <b>Repair</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+50&nbsp;%</span></b>.</li>\n<li>Increases the <b>Sabotage</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+10&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">20 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "Mechanic's Toolbox",
+      "itemKey": "mechanics toolbox",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_mechanicsToolbox.png",
+      "rarity": "Rare",
+      "description": "A metal box containing specialized tools for mechanical work.\n<ul><li>Unlocks the <b>Repair</b> action.</li>\n<li>Increases the <b>Repair</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+75&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">16 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "Commodious Toolbox",
+      "itemKey": "commodious toolbox",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_commodiousToolbox.png",
+      "rarity": "Rare",
+      "description": "A large metal box containing a variety of tools.\n<ul><li>Unlocks the <b>Repair</b> action.</li>\n<li>Increases the <b>Repair</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+50&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">32 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "Engineer's Toolbox",
+      "itemKey": "engineers toolbox",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_engineersToolbox.png",
+      "rarity": "Very Rare",
+      "description": "A professional Toolbox containing high-quality tools.\n<ul><li>Unlocks the <b>Repair</b> action.</li>\n<li>Increases the <b>Repair</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+100&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">16 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "Alex's Toolbox",
+      "itemKey": "alexs toolbox",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_alexsToolbox.png",
+      "rarity": "Very Rare",
+      "description": "A collection of tools primarily used for mechanics.\n<ul><li>Unlocks the <b>Repair</b> and <b>Sabotage</b> actions.</li>\n<li>Increases the <b>Repair</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+10&nbsp;%</span></b>.</li>\n<li>Increases the <b>Sabotage</b> speed by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+100&nbsp;%</span></b>.</li>\n<li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">24 Charges</span></b>.</li></ul>"
+    },
+    {
+      "name": "Broken Key",
+      "itemKey": "broken key",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_brokenKey.png",
+      "rarity": "Rare",
+      "description": "A bent and broken key. Can be used as a channel for various Add-ons.\n<ul><li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">10 seconds</span></b> of use.</li></ul>\n<p><i>Broken Keys cannot be used to open a Hatch.</i></p>"
+    },
+    {
+      "name": "Dull Key",
+      "itemKey": "dull key",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_dullKey.png",
+      "rarity": "Very Rare",
+      "description": "A dull, non-descript key that used to fit into something.\n<ul><li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">5 seconds</span></b> of use.</li>\n<li>Can be used to instantly open the <b>Hatch</b>.</li></ul>"
+    },
+    {
+      "name": "Skeleton Key",
+      "itemKey": "skeleton key",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_skeletonKey.png",
+      "rarity": "Ultra Rare",
+      "description": "A tarnished and crooked key that used to fit into anything.\n<ul><li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">30 seconds</span></b> of use.</li>\n<li>Can be used to instantly open the <b>Hatch</b>.</li></ul>"
+    },
+    {
+      "name": "Map",
+      "itemKey": "map",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_map.png",
+      "rarity": "Rare",
+      "description": "A piece of parchment that maps the immediate surroundings.\n<ul><li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">20 seconds</span></b> of use.</li>\n<li>Tracks <b>Generators</b> within <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">8 metres</span></b>.</li></ul>"
+    },
+    {
+      "name": "Rainbow Map",
+      "itemKey": "rainbow map",
+      "image": "https://deadbydaylight.wiki.gg/images/IconItems_rainbowMap.png",
+      "rarity": "Ultra Rare",
+      "description": "A Map of a mysterious nature. It tracks many different types of objects.\n<ul><li>Starts with <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">20 seconds</span></b> of use.</li>\n<li>Tracks <b>Objectives</b>, <b>Killer's Belongings</b>, and the <b>Hatch</b> within <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">8 metres</span></b>.</li></ul>"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "addons": [
+    {
+      "name": "Clean Rag",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_cleanRag.png",
+      "rarity": "Common",
+      "description": "Increases the Action speed for Toolbox Repair by +20 %."
+    },
+    {
+      "name": "Instructions",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_instructions.png",
+      "rarity": "Common",
+      "description": "While repairing a Generator with a Toolbox, suppresses all regular Repair Skill Checks."
+    },
+    {
+      "name": "Scraps",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_scraps.png",
+      "rarity": "Common",
+      "description": "Increases the capacity of Toolboxes by +8 Charges."
+    },
+    {
+      "name": "Cutting Wire",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_cuttingWire.png",
+      "rarity": "Uncommon",
+      "description": "Increases the Action speed for Toolbox Sabotage by +15 %."
+    },
+    {
+      "name": "Protective Gloves",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_protectiveGloves.png",
+      "rarity": "Uncommon",
+      "description": "Prevents the Killer from being notified when sabotaging a Hook with a Toolbox."
+    },
+    {
+      "name": "Socket Swivel",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_socketSwivel.png",
+      "rarity": "Uncommon",
+      "description": "Increases the Action speed for Toolbox Repair by +30 %."
+    },
+    {
+      "name": "Wire Spool",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_wireSpool.png",
+      "rarity": "Uncommon",
+      "description": "Increases the capacity of Toolboxes by +12 Charges."
+    },
+    {
+      "name": "Grip Wrench",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_gripWrench.png",
+      "rarity": "Rare",
+      "description": "Hooks sabotaged using a Toolbox stay broken for an extra +15 seconds."
+    },
+    {
+      "name": "Hacksaw",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_hacksaw.png",
+      "rarity": "Rare",
+      "description": "Increases the Action speed for Toolbox Sabotage by +20 %."
+    },
+    {
+      "name": "Brand New Part",
+      "item": "Toolboxes",
+      "itemKey": "toolboxes",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_brandNewPart.png",
+      "rarity": "Ultra Rare",
+      "description": "Triggers a difficult Skill Check when repairing. Success permanently reduces the Generator repair requirement by 5%."
+    },
+    {
+      "name": "Bandage",
+      "item": "Med-Kits",
+      "itemKey": "med-kits",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_bandage.png",
+      "rarity": "Common",
+      "description": "Increases the capacity of Med-Kits by +8 Charges."
+    },
+    {
+      "name": "Butterfly Tape",
+      "item": "Med-Kits",
+      "itemKey": "med-kits",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_butterflyTape.png",
+      "rarity": "Common",
+      "description": "Increases the Healing speed of the Med-Kit by +5 %."
+    },
+    {
+      "name": "Gauze Roll",
+      "item": "Med-Kits",
+      "itemKey": "med-kits",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_gauzeRoll.png",
+      "rarity": "Uncommon",
+      "description": "Increases the capacity of Med-Kits by +10 Charges."
+    },
+    {
+      "name": "Medical Scissors",
+      "item": "Med-Kits",
+      "itemKey": "med-kits",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_medicalScissors.png",
+      "rarity": "Uncommon",
+      "description": "Increases the Healing speed of the Med-Kit by +10 %."
+    },
+    {
+      "name": "Self-Adherent Wrap",
+      "item": "Med-Kits",
+      "itemKey": "med-kits",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_selfAdherentWrap.png",
+      "rarity": "Uncommon",
+      "description": "Increases the Healing speed of the Med-Kit by +5 % and its capacity by +8 Charges."
+    },
+    {
+      "name": "Abdominal Dressing",
+      "item": "Med-Kits",
+      "itemKey": "med-kits",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_abdominalDressing.png",
+      "rarity": "Rare",
+      "description": "Increases the Healing speed of the Med-Kit by +15 % but reduces capacity by -8 Charges."
+    },
+    {
+      "name": "Styptic Agent",
+      "item": "Med-Kits",
+      "itemKey": "med-kits",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_stypticAgent.png",
+      "rarity": "Very Rare",
+      "description": "Press the Secondary Action button while healing to apply the Endurance status effect for 5 seconds."
+    },
+    {
+      "name": "Anti-Hemorrhagic Syringe",
+      "item": "Med-Kits",
+      "itemKey": "med-kits",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_antiHemorrhagicSyringe.png",
+      "rarity": "Ultra Rare",
+      "description": "Press the Secondary Action button while healing to heal the health state automatically over 16 seconds."
+    },
+    {
+      "name": "Battery",
+      "item": "Flashlights",
+      "itemKey": "flashlights",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_battery.png",
+      "rarity": "Common",
+      "description": "Increases the Flashlight's battery life by +2 seconds."
+    },
+    {
+      "name": "Leather Grip",
+      "item": "Flashlights",
+      "itemKey": "flashlights",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_leatherGrip.png",
+      "rarity": "Common",
+      "description": "Increases the Aim accuracy of the Flashlight by +20 %."
+    },
+    {
+      "name": "Power Bulb",
+      "item": "Flashlights",
+      "itemKey": "flashlights",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_powerBulb.png",
+      "rarity": "Common",
+      "description": "Increases the Beam brightness and Blindness duration of the Flashlight by +10 %."
+    },
+    {
+      "name": "Filament Bulb",
+      "item": "Flashlights",
+      "itemKey": "flashlights",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_filamentBulb.png",
+      "rarity": "Uncommon",
+      "description": "Reduces the Flashlight's Depletion rate by -11 %."
+    },
+    {
+      "name": "Heavy Duty Battery",
+      "item": "Flashlights",
+      "itemKey": "flashlights",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_heavyDutyBattery.png",
+      "rarity": "Uncommon",
+      "description": "Increases the Flashlight's battery life by +4 seconds."
+    },
+    {
+      "name": "Tir-Optic",
+      "item": "Flashlights",
+      "itemKey": "flashlights",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_tirOptic.png",
+      "rarity": "Uncommon",
+      "description": "Increases the Beam brightness and Blindness duration of the Flashlight by +15 %."
+    },
+    {
+      "name": "Intense Halogen",
+      "item": "Flashlights",
+      "itemKey": "flashlights",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_intenseHalogen.png",
+      "rarity": "Rare",
+      "description": "Increases the Beam brightness and Blindness duration of the Flashlight by +20 %."
+    },
+    {
+      "name": "Long Life Battery",
+      "item": "Flashlights",
+      "itemKey": "flashlights",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_longLifeBattery.png",
+      "rarity": "Rare",
+      "description": "Increases the Flashlight's battery life by +6 seconds."
+    },
+    {
+      "name": "Odd Bulb",
+      "item": "Flashlights",
+      "itemKey": "flashlights",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_oddBulb.png",
+      "rarity": "Ultra Rare",
+      "description": "Increases brightness by +50 % and Blindness duration by +25 %. Increases depletion by +14 %."
+    },
+    {
+      "name": "Map Jelly",
+      "item": "Maps",
+      "itemKey": "maps",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_mapJelly.png",
+      "rarity": "Uncommon",
+      "description": "Increases the tracking range of the Map by +8 metres."
+    },
+    {
+      "name": "Red Paint Brush",
+      "item": "Maps",
+      "itemKey": "maps",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_redPaintBrush.png",
+      "rarity": "Uncommon",
+      "description": "Tracks the Killer's Belongings (Traps, Hooks, etc.) on the Map."
+    },
+    {
+      "name": "Glass Bead",
+      "item": "Maps",
+      "itemKey": "maps",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_glassBead.png",
+      "rarity": "Rare",
+      "description": "While the Map is active, press the Secondary Action button to create a marker that all Survivors can see."
+    },
+    {
+      "name": "Odd Token",
+      "item": "Maps",
+      "itemKey": "maps",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_oddToken.png",
+      "rarity": "Rare",
+      "description": "Increases the tracking range of the Map by +12 metres."
+    },
+    {
+      "name": "Crystal Bead",
+      "item": "Maps",
+      "itemKey": "maps",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_crystalBead.png",
+      "rarity": "Very Rare",
+      "description": "The auras of tracked objects are revealed to all other Survivors while using the Map."
+    },
+    {
+      "name": "Eroded Token",
+      "item": "Keys",
+      "itemKey": "keys",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_erodedToken.png",
+      "rarity": "Uncommon",
+      "description": "Reveals Survivor Auras within 24 metres while the Key is active."
+    },
+    {
+      "name": "Gold Token",
+      "item": "Keys",
+      "itemKey": "keys",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_goldToken.png",
+      "rarity": "Rare",
+      "description": "Reveals Survivor Auras within 48 metres while the Key is active."
+    },
+    {
+      "name": "Blood Amber",
+      "item": "Keys",
+      "itemKey": "keys",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_bloodAmber.png",
+      "rarity": "Very Rare",
+      "description": "Reveals the Killer's Aura within 32 metres, but increases depletion speed by +100 %."
+    },
+    {
+      "name": "Milky Glass",
+      "item": "Keys",
+      "itemKey": "keys",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_milkyGlass.png",
+      "rarity": "Very Rare",
+      "description": "Prevents losing the Key when opening the Hatch, consuming the add-on instead."
+    },
+    {
+      "name": "Weaving Weft",
+      "item": "Keys",
+      "itemKey": "keys",
+      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_weavingWeft.png",
+      "rarity": "Very Rare",
+      "description": "Prevents losing the Key when it is fully depleted, consuming the add-on instead."
+    }
+  ]
+}
