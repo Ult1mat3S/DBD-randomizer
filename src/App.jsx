@@ -11,6 +11,18 @@ function App() {
   const [killerPerks, setKillerPerks] = useState([]);
   const [survivorPerks, setSurvivorPerks] = useState([]);
 
+  const [killerAddons, setKillerAddons] = useState([]);
+  const [killerOffering, setKillerOffering] = useState([]);
+
+  const [survivorItem, setSurvivorItem] = useState([]);
+  const [survivorAddons, setSurvivorAddons] = useState([]);
+  const [survivorOffering, setSurvivorOffering] = useState([]);
+
+  const [randomSurvivorItem, setRandomSurvivorItem] = useState([]);
+  const [randomSurvivorAddons, setRandomSurvivorAddons] = useState([]);
+  const [randomSurvivorOffering, setRandomSurvivorOffering] = useState([]);
+  const [randomKillerAddons, setRandomKillerAddons] = useState([]);
+  const [randomKillerOffering, setRandomKillerOffering] = useState([]);
   const [randomKiller, setRandomKiller] = useState(null);
   const [randomSurvivor, setRandomSurvivor] = useState(null);
 
@@ -32,14 +44,54 @@ function App() {
     setRandomSurvivor(survivors[Math.floor(Math.random() * survivors.length)]);
   }
 
-  function generateKillerPerks() {
+  function generateKillerData() {
     setKillerPerks(getRandomItems(allKillerPerks, 4));
     generateRandomKiller();
+    generateKillerAddonsAndOffering();
   }
 
-  function generateSurvivorPerks() {
+  function generateSurvivorData() {
     setSurvivorPerks(getRandomItems(allSurvivorPerks, 4));
     generateRandomSurvivor();
+    generateSurvivorItemsOfferingAndAddons();
+  }
+
+  function generateKillerAddonsAndOffering() {
+    fetch(`${import.meta.env.BASE_URL}killerItems.json`)
+      .then((res) => res.json())
+      .then((data) => {
+        setKillerAddons(data.addons);
+        setKillerOffering(data.offerings);
+
+        setRandomKillerAddons(getRandomItems(data.addons, 2));
+        setRandomKillerOffering(getRandomItems(data.offerings, 1));
+      })
+      .catch(console.error);
+  }
+
+  function generateSurvivorItemsOfferingAndAddons() {
+    const base = import.meta.env.BASE_URL;
+
+    Promise.all([
+      fetch(`${base}survItems.json`).then((res) => res.json()),
+      fetch(`${base}survAddons.json`).then((res) => res.json()),
+      fetch(`${base}survOfferings.json`).then((res) => res.json()),
+    ])
+      .then(([itemsData, addonsData, offeringsData]) => {
+        setSurvivorItem(itemsData.items);
+        setSurvivorAddons(addonsData.addons);
+        setSurvivorOffering(offeringsData.offerings);
+
+        const selectedItem = getRandomItems(itemsData.items, 1);
+        setRandomSurvivorItem(selectedItem);
+
+        const selectedOffering = getRandomItems(offeringsData.offerings, 1);
+        setRandomSurvivorOffering(selectedOffering);
+
+        const selectedAddons = getRandomItems(addonsData.addons, 2);
+        setRandomSurvivorAddons(selectedAddons);
+      })
+      .catch((err) => console.error("Failed to fetch survivor data:", err));
   }
 
   useEffect(() => {
@@ -60,6 +112,28 @@ function App() {
     if (allSurvivorPerks.length) generateRandomSurvivor();
   }, [allKillerPerks, allSurvivorPerks]);
 
+  useEffect(() => {
+    if (!randomKiller || !killerAddons.length) return;
+    const fullKillerName = `The ${randomKiller.character}`;
+    const specificAddons = killerAddons.filter((addon) => addon.killer === fullKillerName);
+    setRandomKillerAddons(getRandomItems(specificAddons, 2));
+  }, [randomKiller, killerAddons, killerOffering]);
+
+  useEffect(() => {
+    if (!randomSurvivorItem?.length || !survivorAddons.length) return;
+
+    const itemKey = randomSurvivorItem[0].itemKey;
+
+    const specificAddons = survivorAddons.filter((addon) => addon.itemKey === itemKey);
+
+    setRandomSurvivorAddons(getRandomItems(specificAddons, 2));
+  }, [randomSurvivorItem, survivorAddons]);
+
+  useEffect(() => {
+    generateKillerAddonsAndOffering();
+    generateSurvivorItemsOfferingAndAddons();
+  }, []);
+
   return (
     <>
       <Router basename={`${import.meta.env.BASE_URL}`}>
@@ -76,14 +150,26 @@ function App() {
             path="/"
             element={
               <div className="items-center text-center">
-                <h1 className="text-2xl font-semibold mb-10 ">Dead By Daylight Randomizer</h1>
-                <PerksCard perks={killerPerks} killer={randomKiller} />
-                <button onClick={generateKillerPerks} className="mb-20">
+                <h1 className="text-2xl font-semibold mb-10">Dead By Daylight Randomizer</h1>
+                <PerksCard
+                  perks={killerPerks}
+                  killer={randomKiller}
+                  killerAddons={randomKillerAddons}
+                  killerOffering={randomKillerOffering}
+                />
+
+                <button onClick={generateKillerData} className="mb-20">
                   Generate
                 </button>
 
-                <PerksCard perks={survivorPerks} survivor={randomSurvivor} />
-                <button onClick={generateSurvivorPerks} className="mb-20">
+                <PerksCard
+                  perks={survivorPerks}
+                  survivor={randomSurvivor}
+                  survItem={randomSurvivorItem}
+                  survivorAddons={randomSurvivorAddons}
+                  survOffering={randomSurvivorOffering}
+                />
+                <button onClick={generateSurvivorData} className="mb-20">
                   Generate
                 </button>
               </div>
@@ -92,11 +178,6 @@ function App() {
           <Route path="/settings" element={<Settings />} />
         </Routes>
       </Router>
-
-      <footer className="text-center m-2">
-        Made by <a href="https://github.com/Ult1mat3S">Ultimate</a> |
-        <a href="https://github.com/Ult1mat3S/DBD-randomizer"> Github Repo</a>
-      </footer>
     </>
   );
 }

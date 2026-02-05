@@ -1,3 +1,5 @@
+// https://github.com/MrTipson/otz-builds/blob/master/build/getPerks.js
+
 import axios from "axios";
 import { writeFileSync } from "fs";
 import { JSDOM } from "jsdom";
