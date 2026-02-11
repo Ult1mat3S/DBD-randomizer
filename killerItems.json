@@ -931,25 +931,25 @@
       "description": "A compact cassette from Project Awakening containing mostly white noise.\nOpens The Doctor's mind to alternate treatment methods.\nReshapes the Area of Effect of the Shock Therapy Attack from a cone into a hollow ring which is placed 8 metres in front of The Doctor.\nThe ring has a radius of 4 metres a thickness of 1 metre."
     },
     {
-      "name": "\"Calm\" - Carter's Notes",
+      "name": "Calm - Carter's Notes",
       "killer": "The Doctor",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_calmCartersNotes.png?10a4f5",
       "description": "An experimental version of the ECT procedure annotated by Doctor Herman Carter himself.\nUses a deep wavelength that soothes various mental illnesses.\nWith Carter's Spark as its source, this procedure causes uncontrollable fear and anxiety in the patient.\nIncreases your Terror Radius by +8 metres while Static Blast is ready to be used.\nReduces your Terror Radius by -8 metres while Static Blast is on cool-down.\nSurvivors affected by Madness suffer from the Affliction of Calm:\nMadness II: Survivors intermittently hear a distant Illusionary Terror Radius.\nMadness III: Survivors constantly hear a distant Illusionary Terror Radius.\n\"Higher quality seizures trigger catatonia. At least it gives me peace for the time it lasts.\" — Herman Carter"
     },
     {
-      "name": "\"Discipline\" - Carter's Notes",
+      "name": "Discipline - Carter's Notes",
       "killer": "The Doctor",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_disciplineCartersNotes.png?83189f",
       "description": "Project Awakening ECT procedure for disciplinary action, annotated by Doctor Herman Carter himself.\nThe intolerably high voltage leaves the patient in a severe state of paranoia.\nReduces the Detonation delay of the Shock Therapy Attack by -0.2 seconds.\nSurvivors affected by Madness suffer from the Affliction of Discipline:\nMadness II: During a Chase, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them.\nThis effect lingers for 6 seconds after the Chase ends.\nMadness III: In any situation, Survivors perceive an Illusionary Red Stain and Terror Radius, as if you were constantly right behind them.\nYou share into your patients' Madness and can see the Illusionary Red Stain.\n\"To avoid relapse from our most tenacious subjects, use maximum levels when proceeding with disciplinary actions.\" — Herman Carter"
     },
     {
-      "name": "\"Order\" - Carter's Notes",
+      "name": "Order - Carter's Notes",
       "killer": "The Doctor",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_orderCartersNotes.png?ef764c",
       "description": "An experimental version of the ECT procedure, annotated by Doctor Herman Carter himself.\nThe long, constant stimulus leaves the patient in a state of severe confusion.\nReduces the Cool-down duration of Static Blast by -3 seconds.\nSurvivors affected by Madness suffer from the Affliction of Order:\nBroken Pallets are randomly replaced by dropped or upright Illusionary Pallets, which persist until approached by Survivors.\nNew Illusionary Pallets are generated every 20 seconds.\nYou share into your patients' Madness and can see the Illusionary Pallets.\n\"The stimulus must be kept active at a convulsive level.\" — Herman Carter"
     },
     {
-      "name": "\"Restraint\" - Carter's Notes",
+      "name": "Restraint - Carter's Notes",
       "killer": "The Doctor",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_restraintCartersNotes.png?192504",
       "description": "An experimental ECT procedure developed within The Fog, crudely annotated.\nUses an unbearable stimulus wavelength to link the patient's and The Doctor's minds.\nThis procedure is known to cause severe cases of hallucinations in the patient.\nThe Auras of Survivors who have their Madness increased by one Tier are revealed to you for 3 seconds.\nSurvivors affected by Madness suffer from the Affliction of Restraint:\nIncreases the duration of Illusionary Doctors by +6 seconds.\nYou share into your patients' Madness and can see the Illusionary Doctors.\n\"I CAN SEE THEIR DISGUSTING ILLNESSES.\" — unsighned Notes, likely Herman Carter"
@@ -4707,49 +4707,49 @@
       "description": "Wesker was as much a researcher as he was a guinea pig for Umbrella's bio-weapons.\nGrants the ability to break Breakable Walls or Pallets when colliding with them Mid-Bound.\nYou can no longer vault over Pallets using Virulent Bound.\n\"Only a handful of humans truly matter. Everyone else is just so much chaff. So now I have to separate this chaff from the wheat.\" — Albert Wesker"
     },
     {
-      "name": "\"The Beast\" - Soot",
+      "name": "The Beast - Soot",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_theBeast-Soot.png?a915d6",
       "description": "The Kunwulju symbol, representing the Realm of Fear, is finger-drawn out of soot on the body of the Bell.\nYour Terror Radius is no longer suppressed when Cloaked.\nGrants +100 % bonus Bloodpoints for Stalking and Surprise Attack Score Events."
     },
     {
-      "name": "\"The Ghost\" - Soot",
+      "name": "The Ghost - Soot",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_theGhost-Soot.png?566ff4",
       "description": "The Khugwemuu symbol, representing the Spirit World, is finger-drawn out of soot on the body of the Bell.\nYour Terror Radius and Red Stain are suppressed for another 6 seconds after uncloaking."
     },
     {
-      "name": "\"The Hound\" - Soot",
+      "name": "The Hound - Soot",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_theHound-Soot.png?bad05b",
       "description": "The Wonnug symbol, representing a peerless tracker, is finger-drawn out of soot on the body of the Bell.\nWhen Cloaked, Pools of Blood appear to you in bright red."
     },
     {
-      "name": "\"The Serpent\" - Soot",
+      "name": "The Serpent - Soot",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_theSerpent-Soot.png?e8616f",
       "description": "The Laokeye symbol, representing cunning, is finger-drawn out of soot on the body of the Bell.\nBreaking Breakable Walls or Pallets by any means, or performing the Damage Generator action on incomplete Generators, will cause you to automatically uncloak."
     },
     {
-      "name": "\"Blind Warrior\" - Mud",
+      "name": "Blind Warrior - Mud",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_blindWarrior-Mud.png?4d255b",
       "description": "The Baikra-Kaeug symbol, representing ferocity, is finger-drawn in mud on the body of the bell.\nSurvivors hit with a Surprise Attack suffer from the Blindness Status Effect for 60 seconds."
     },
     {
-      "name": "\"Blink\" - Mud",
+      "name": "Blink - Mud",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_blink-Mud.png?941e1d",
       "description": "The Kratin symbol, representing quick passing, is finger-drawn in mud on the body of the Bell.\nReduces the Cloaking time by -40 %."
     },
     {
-      "name": "\"Swift Hunt\" - Mud",
+      "name": "Swift Hunt - Mud",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_swiftHunt-Mud.png?77b1f2",
       "description": "The Kuntin-Takkho symbol, representing a rapid descent on a prey, is finger-drawn in mud on the body of the Bell.\nReduces the Uncloaking time by -8 %."
     },
     {
-      "name": "\"Windstorm\" - Mud",
+      "name": "Windstorm - Mud",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_windstorm-Mud.png?a8a4c7",
       "description": "The Ohuwe-Onmnea symbol, representing a howling storm, is finger-drawn in mud on the body of the Bell.\nIncreases your Movement Speed while Cloaked by +5 %."
@@ -4761,61 +4761,61 @@
       "description": "A Bell clapper made from a highly polished piece of bone.\nCauses the sounds of the Wailing Bell to echo and warp chaotically.\nSurvivors are unable to discern the distance and direction of the Wailing Bell."
     },
     {
-      "name": "\"Blind Warrior\" - White",
+      "name": "Blind Warrior - White",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_blindWarrior-White.png?cf8ab3",
       "description": "The Baikra-Kaeug symbol, representing ferocity, is stamped in white ink on the body of the bell.\nSurvivors hit with a Surprise Attack suffer from the Haemorrhage and Mangled Status Effects for 70 seconds."
     },
     {
-      "name": "\"Blink\" - White",
+      "name": "Blink - White",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_blink-White.png?9a60cf",
       "description": "The Kratin symbol, representing quick passing, is stamped in white ink on the body of the Bell.\nReduces the Cloaking time by -60 %."
     },
     {
-      "name": "\"Shadow Dance\" - White",
+      "name": "Shadow Dance - White",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_shadowDance-White.png?2ea0b9",
       "description": "The Yiwarick symbol, representing dark synergy, is stamped in white ink on the body of the Bell.\nIncreases the Action speeds for breaking Breakable Walls and Pallets, damaging Generators, and vaulting Windows by +40 % while Cloaked."
     },
     {
-      "name": "\"Swift Hunt\" - White",
+      "name": "Swift Hunt - White",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_swiftHunt-White.png?36831d",
       "description": "The Kuntin-Takkho symbol, representing a rapid descent on a prey, is stamped in white ink on the body of the Bell.\nReduces the Uncloaking time by -10 %."
     },
     {
-      "name": "\"Windstorm\" - White",
+      "name": "Windstorm - White",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_windstorm-White.png?bc1c50",
       "description": "The Ohuwe-Onmnea symbol, representing a howling storm, is stamped in white ink on the body of the Bell.\nIncreases your Movement Speed while Cloaked by +7 %."
     },
     {
-      "name": "\"All Seeing\" - Blood",
+      "name": "All Seeing - Blood",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_allSeeing-Blood.png?6030ac",
       "description": "The Kra-Frabai symbol, representing The Entity watching over us, is stamped in blood on the head of the bell.\nUnlocks potential in your Aura-reading ability while Cloaked:\nThe Auras of Survivors are revealed to you within 8 metres of your location."
     },
     {
-      "name": "\"Shadow Dance\" - Blood",
+      "name": "Shadow Dance - Blood",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_shadowDance-Blood.png?a518d7",
       "description": "The Yiwarick symbol, representing dark synergy, is stamped in blood on the body of the Bell.\nIncreases the Action speeds for breaking Breakable Walls and Pallets, damaging Generators, and vaulting Windows by +60 % when Cloaked."
     },
     {
-      "name": "\"Swift Hunt\" - Blood",
+      "name": "Swift Hunt - Blood",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_swiftHunt-Blood.png?ec375b",
       "description": "The Kuntin-Takkho symbol, representing a rapid descent on a prey, is stamped in blood on the body of the Bell.\nReduces the Uncloaking time by -12 %."
     },
     {
-      "name": "\"Windstorm\" - Blood",
+      "name": "Windstorm - Blood",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_windstorm-Blood.png?9cde03",
       "description": "The Ohuwe-Onmnea symbol, representing a howling storm, is stamped in blood on the body of the Bell.\nIncreases your Movement Speed while Cloaked by +9 %."
     },
     {
-      "name": "\"All Seeing\" - Spirit",
+      "name": "All Seeing - Spirit",
       "killer": "The Wraith",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_allSeeing-Spirit.png?507fed",
       "description": "The Kra-Frabai symbol, representing The Entity watching over us, ominously glows on the head of the bell.\nUnlocks potential in your Aura-reading ability while Cloaked:\nThe intensity of the Generator Auras reveals their current Repair progress."
@@ -5580,212 +5580,212 @@
     {
       "name": "Chalk Pouch",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_chalkPouch.png?b7bcf4",
-      "description": "THIS OFFERING IS SECRET\nUnlocks the ability to attempt Self-Unhooks during the first Hook Stage:\nIncreases your personal Luck at succeeding them by +1 %.\n\"A small cotton pouch filled with white chalky powder of unknown origin.\nSome believe it brings good fortune.\""
+      "description": "\nUnlocks the ability to attempt Self-Unhooks during the first Hook Stage:\nIncreases your personal Luck at succeeding them by +1 %.\n\"A small cotton pouch filled with white chalky powder of unknown origin.\nSome believe it brings good fortune.\""
     },
     {
       "name": "Cream Chalk Pouch",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_creamChalkPouch.png?154e93",
-      "description": "THIS OFFERING IS SECRET\nUnlocks the ability to attempt Self-Unhooks during the first Hook Stage:\nIncreases your personal Luck at succeeding them by +2 %.\n\"A small cotton pouch half-filled with a cream coloured chalky powder of unknown origin.\nReleases a faint herbal aroma. Some believe it brings good fortune.\""
+      "description": "\nUnlocks the ability to attempt Self-Unhooks during the first Hook Stage:\nIncreases your personal Luck at succeeding them by +2 %.\n\"A small cotton pouch half-filled with a cream coloured chalky powder of unknown origin.\nReleases a faint herbal aroma. Some believe it brings good fortune.\""
     },
     {
       "name": "Ivory Chalk Pouch",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_ivoryChalkPouch.png?79c240",
-      "description": "THIS OFFERING IS SECRET\nUnlocks the ability to attempt Self-Unhooks during the first Hook Stage:\nIncreases your personal Luck at succeeding them by +3 %.\n\"A small leather pouch displaying a straight white line hand-sewn on one of its sides.\nThe bag is filled with an ivory chalky powder that shines under the moonlight.\nSome believe it brings good fortune.\""
+      "description": "\nUnlocks the ability to attempt Self-Unhooks during the first Hook Stage:\nIncreases your personal Luck at succeeding them by +3 %.\n\"A small leather pouch displaying a straight white line hand-sewn on one of its sides.\nThe bag is filled with an ivory chalky powder that shines under the moonlight.\nSome believe it brings good fortune.\""
     },
     {
       "name": "Bloodied Blueprint",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_bloodiedBlueprint.png?29cd50",
-      "description": "THIS OFFERING IS SECRET\nGrants the following effects at the start of the Trial:\nIncreases the likelihood of the Basement spawning in the Killer Shack by +100 %, if it is available.\nThe Auras of the Basement Hooks are revealed to you for 20 seconds.\n\"Spatters of dried blood partially conceal the design.\""
+      "description": "\nGrants the following effects at the start of the Trial:\nIncreases the likelihood of the Basement spawning in the Killer Shack by +100 %, if it is available.\nThe Auras of the Basement Hooks are revealed to you for 20 seconds.\n\"Spatters of dried blood partially conceal the design.\""
     },
     {
       "name": "Torn Blueprint",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_tornBlueprint.png?5f9d67",
-      "description": "THIS OFFERING IS SECRET\nGrants the following effects at the start of the Trial:\nIncreases the likelihood of the Basement spawning in the Landmark Building by +100 %, if it is available.\nThe Auras of the Basement Hooks are revealed to you for 20 seconds.\n\"Though brittle and torn, the design is mostly legible.\""
+      "description": "\nGrants the following effects at the start of the Trial:\nIncreases the likelihood of the Basement spawning in the Landmark Building by +100 %, if it is available.\nThe Auras of the Basement Hooks are revealed to you for 20 seconds.\n\"Though brittle and torn, the design is mostly legible.\""
     },
     {
       "name": "Scratched Coin",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_scratchedCoin.png?508cc3",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nReduces the number of Chests in the environment by -1.\n\"A defaced coin of unknown origin.\""
+      "description": "\nCalls upon The Entity for the following effect:\nReduces the number of Chests in the environment by -1.\n\"A defaced coin of unknown origin.\""
     },
     {
       "name": "Tarnished Coin",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_tarnishedCoin.png?145990",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the number of Chests in the environment by +1.\n\"A round piece of metal which has lost all sheen.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the number of Chests in the environment by +1.\n\"A round piece of metal which has lost all sheen.\""
     },
     {
       "name": "Cut Coin",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_cutCoin.png?bee681",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nReduces the number of Chests in the environment by -2.\n\"Two halves of a thick metallic coin.\""
+      "description": "\nCalls upon The Entity for the following effect:\nReduces the number of Chests in the environment by -2.\n\"Two halves of a thick metallic coin.\""
     },
     {
       "name": "Shiny Coin",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_shinyCoin.png?e215e2",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the number of Chests in the environment by +2.\n\"A clean and polished piece of gold.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the number of Chests in the environment by +2.\n\"A clean and polished piece of gold.\""
     },
     {
       "name": "Clear Reagent",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_clearReagent.png?9dd727",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nReduces the thickness of the Dark Mist by -50 %.\n\"The Mist rolls in, traps all in its deep madness.\nThere is no running, no escape, no asylum, except for the clear waters of the pond lost in the forest.\" — Unknown, Notebook"
+      "description": "\nCalls upon The Entity for the following effect:\nReduces the thickness of the Dark Mist by -50 %.\n\"The Mist rolls in, traps all in its deep madness.\nThere is no running, no escape, no asylum, except for the clear waters of the pond lost in the forest.\" — Unknown, Notebook"
     },
     {
       "name": "Faint Reagent",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_faintReagent.png?c4e9fb",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the thickness of the Dark Mist by +25 %.\n\"Paralysed, I stand in the cold as death lingers.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the thickness of the Dark Mist by +25 %.\n\"Paralysed, I stand in the cold as death lingers.\""
     },
     {
       "name": "Hazy Reagent",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_hazyReagent.png?3558c4",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the thickness of the Dark Mist by +50 %.\n\"The Mist is alluring, hypnotising.\nI love it and fear it at the same time.\" — Donna's Sketchbook"
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the thickness of the Dark Mist by +50 %.\n\"The Mist is alluring, hypnotising.\nI love it and fear it at the same time.\" — Donna's Sketchbook"
     },
     {
       "name": "Murky Reagent",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_murkyReagent.png?1bf707",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the thickness of the Dark Mist by +75 %.\n\"The Mist seems to protect us from the beast, but it is a poison, a cancer, filling us with darkness and insanity.\" — Unknown, Notebook"
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the thickness of the Dark Mist by +75 %.\n\"The Mist seems to protect us from the beast, but it is a poison, a cancer, filling us with darkness and insanity.\" — Unknown, Notebook"
     },
     {
       "name": "Annotated Blueprint",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_annotatedBlueprint.png?979e92",
-      "description": "THIS OFFERING IS SECRET\nGrants the following effect at the start of the Trial:\nIncreases the likelihood of the Hatch spawning by the Killer Shack by +100 %, if it is available.\n\"Essential information is scribbled along the side, but by whom?\""
+      "description": "\nGrants the following effect at the start of the Trial:\nIncreases the likelihood of the Hatch spawning by the Killer Shack by +100 %, if it is available.\n\"Essential information is scribbled along the side, but by whom?\""
     },
     {
       "name": "Vigo's Blueprint",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_vigosBlueprint.png?99e22e",
-      "description": "THIS OFFERING IS SECRET\nGrants the following effect at the start of the Trial:\nIncreases the likelihood of the Hatch spawning by the Landmark Building by +100 %, if it is available.\n\"A clever design that has the letter 'V' etched on the bottom.\""
+      "description": "\nGrants the following effect at the start of the Trial:\nIncreases the likelihood of the Hatch spawning by the Landmark Building by +100 %, if it is available.\n\"A clever design that has the letter 'V' etched on the bottom.\""
     },
     {
       "name": "Mouldy Oak",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_moldyOak.png?1c51dd",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nReduces the minimum distance between Spawn locations for Hooks by -1.5 metres.\n\"A damp and decaying piece of oak replete with mould.\""
+      "description": "\nCalls upon The Entity for the following effect:\nReduces the minimum distance between Spawn locations for Hooks by -1.5 metres.\n\"A damp and decaying piece of oak replete with mould.\""
     },
     {
       "name": "Rotten Oak",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_rottenOak.png?1e09ee",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nReduces the minimum distance between Spawn locations for Hooks by -2.5 metres.\n\"A decomposing piece of oak in which strange markings have been etched.\""
+      "description": "\nCalls upon The Entity for the following effect:\nReduces the minimum distance between Spawn locations for Hooks by -2.5 metres.\n\"A decomposing piece of oak in which strange markings have been etched.\""
     },
     {
       "name": "Petrified Oak",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_petrifiedOak.png?325977",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the minimum distance between Spawn locations for Hooks by +1 metre.\n\"A deteriorating piece of petrified wood.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the minimum distance between Spawn locations for Hooks by +1 metre.\n\"A deteriorating piece of petrified wood.\""
     },
     {
       "name": "Putrid Oak",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_putridOak.png?6231cc",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nReduces the minimum distance between Spawn locations for Hooks by -3.5 metres.\n\"A ruined piece of oak oozing with a black putrescent liquid.\""
+      "description": "\nCalls upon The Entity for the following effect:\nReduces the minimum distance between Spawn locations for Hooks by -3.5 metres.\n\"A ruined piece of oak oozing with a black putrescent liquid.\""
     },
     {
       "name": "Azarov's Key",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_azarovsKey.png?7a4d16",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Autohaven Wreckers Realm to 20 %.\n\"A broken key pertaining to a vehicle of unknown brand.\nA key-chain attached to it identifies the owner as a certain 'A. Azarov'\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Autohaven Wreckers Realm to 20 %.\n\"A broken key pertaining to a vehicle of unknown brand.\nA key-chain attached to it identifies the owner as a certain 'A. Azarov'\""
     },
     {
       "name": "Grandma's Cookbook",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_granmasCookbook.png?e2f732",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Backwater Swamp Realm to 20 %.\n\"A leather-bound book containing horrible human meat recipes such as the granny-slapping good chilli.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Backwater Swamp Realm to 20 %.\n\"A leather-bound book containing horrible human meat recipes such as the granny-slapping good chilli.\""
     },
     {
       "name": "Heart Locket",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_heartLocket.png?37d076",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Coldwind Farm Realm to 20 %.\n\"A silver heart locket necklace.\nThe simple interior is engraved with the following: 'E+M'.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Coldwind Farm Realm to 20 %.\n\"A silver heart locket necklace.\nThe simple interior is engraved with the following: 'E+M'.\""
     },
     {
       "name": "Charred Wedding Photograph",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_charredWeddingPhotograph.png?63060c",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Crotus Prenn Asylum Realm to 20 %.\n\"A burned portrait of a couple on their wedding day, the faces are completely charred and unidentifiable.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Crotus Prenn Asylum Realm to 20 %.\n\"A burned portrait of a couple on their wedding day, the faces are completely charred and unidentifiable.\""
     },
     {
       "name": "Beef Tallow Mixture",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_beefTallowMixture.png?67bb69",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the The Decimated Borgo Realm to 20 %.\n\"The stink of rotting organic matter emanates from this foul mixture, designed with the grim intent to create a fire that burns very hot and very long.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the The Decimated Borgo Realm to 20 %.\n\"The stink of rotting organic matter emanates from this foul mixture, designed with the grim intent to create a fire that burns very hot and very long.\""
     },
     {
       "name": "Airlock Doors",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_airlockDoors.png?315559",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to the Nostromo Wreckage Map in the Dvarka Deepwood Realm to 20 %.\n\"You know the quarantine procedure.\n24 hours for decontamination.\" — Ellen Ripley"
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to the Nostromo Wreckage Map in the Dvarka Deepwood Realm to 20 %.\n\"You know the quarantine procedure.\n24 hours for decontamination.\" — Ellen Ripley"
     },
     {
       "name": "Alien Flora",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_alienFlora.png?379c1d",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to the Toba Landing Map in the Dvarka Deepwood Realm to 20 %.\n\"Our arrival will change the face of this planet as we know it.\" — Sarah, Science Officer"
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to the Toba Landing Map in the Dvarka Deepwood Realm to 20 %.\n\"Our arrival will change the face of this planet as we know it.\" — Sarah, Science Officer"
     },
     {
       "name": "Crow's Eye",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_crowsEye.png?7f550c",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Forsaken Boneyard Realm to 20 %.\n\"The dark, beady eye shifts back and forth as if searching for a bloody strip of carrion.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Forsaken Boneyard Realm to 20 %.\n\"The dark, beady eye shifts back and forth as if searching for a bloody strip of carrion.\""
     },
     {
       "name": "Jigsaw Piece",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_jigsawPiece.png?2327a3",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Gideon Meat Plant Realm to 20 %.\n\"Congratulations.\nYou are still alive.\nMost people are so ungrateful to be alive.\nBut not you.\nNot anymore.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Gideon Meat Plant Realm to 20 %.\n\"Congratulations.\nYou are still alive.\nMost people are so ungrateful to be alive.\nBut not you.\nNot anymore.\""
     },
     {
       "name": "Shattered Bottle",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_shatteredBottle.png?705db8",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Grave of Glenvale Realm to 20 %.\n\"Ain't much for holding a drink no more, but it can sure make a mess of a fella's throat.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Grave of Glenvale Realm to 20 %.\n\"Ain't much for holding a drink no more, but it can sure make a mess of a fella's throat.\""
     },
     {
       "name": "Strode Realty Key",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_strodeRealtyKey.png?592a29",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Haddonfield Realm to 20 %.\n\"A house key, mundane in appearance.\nA cardboard key-tag attached to it reads 'Strode Real Estate', followed by a handwritten address:\n'45 Lampkin Lane'.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Haddonfield Realm to 20 %.\n\"A house key, mundane in appearance.\nA cardboard key-tag attached to it reads 'Strode Real Estate', followed by a handwritten address:\n'45 Lampkin Lane'.\""
     },
     {
       "name": "Hawkins National Laboratory ID",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_hawkinsNationalLaboratoryID.png?d7c80f",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Hawkins National Laboratory Realm to 20 %.\n\"A soggy, bloodstained identification card with a serial number.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Hawkins National Laboratory Realm to 20 %.\n\"A soggy, bloodstained identification card with a serial number.\""
     },
     {
       "name": "Shattered Glasses",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_shatteredGlasses.png?4295f5",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Léry's Memorial Institute Realm to 20 %.\n\"Bent reading glasses.\nSpeckles of dried blood can be seen on the shattered lenses.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Léry's Memorial Institute Realm to 20 %.\n\"Bent reading glasses.\nSpeckles of dried blood can be seen on the shattered lenses.\""
     },
     {
       "name": "MacMillan's Phalanx Bone",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_macMillansPhalanxBone.png?3bdbd6",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the The MacMillan Estate Realm to 20 %.\n\"MacMillan's skeletal remains were found in the basement of the mine's storehouse.\nHis leg bones shattered into pieces and a mining hammer lying in his lap.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the The MacMillan Estate Realm to 20 %.\n\"MacMillan's skeletal remains were found in the basement of the mine's storehouse.\nHis leg bones shattered into pieces and a mining hammer lying in his lap.\""
     },
     {
       "name": "Damaged Photo",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_damagedPhoto.png?a1e1db",
-      "description": "THIS OFFERING IS SECRET\n28 August 1996\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Ormond Realm to 20 %.\n\"A dormant darkness lies beneath his childlike smile, about to be awakened.\""
+      "description": "\n28 August 1996\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Ormond Realm to 20 %.\n\"A dormant darkness lies beneath his childlike smile, about to be awakened.\""
     },
     {
       "name": "RPD Badge",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_rpdBadge.png?278566",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Raccoon City Realm to 20 %.\n\"If we stay here that monster will find us.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Raccoon City Realm to 20 %.\n\"If we stay here that monster will find us.\""
     },
     {
       "name": "The Last Mask",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_theLastMask.png?b3eb2b",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Red Forest Realm to 20 %.\n\"A beautifully crafted tiger mask that would fit snug on a child's face.\nA faded note in the Cyrillic alphabet can be found scripted on the back.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Red Forest Realm to 20 %.\n\"A beautifully crafted tiger mask that would fit snug on a child's face.\nA faded note in the Cyrillic alphabet can be found scripted on the back.\""
     },
     {
       "name": "Mary's Letter",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_marysLetter.png?a6d7ce",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Silent Hill Realm.\nThis Offering modifies the Realm Selector Logic by a value of 20 %.\n\"In my restless dreams, I see that town.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Silent Hill Realm.\nThis Offering modifies the Realm Selector Logic by a value of 20 %.\n\"In my restless dreams, I see that town.\""
     },
     {
       "name": "The Pied Piper",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_thePiedPiper.png?d8afeb",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Springwood Realm.\nThis Offering modifies the Realm Selector Logic by a value of 20 %.\n\"Betrayed by the town, he exacts his revenge by taking all their children.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Springwood Realm.\nThis Offering modifies the Realm Selector Logic by a value of 20 %.\n\"Betrayed by the town, he exacts his revenge by taking all their children.\""
     },
     {
       "name": "Ichorous Loam",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_ichorousLoam.png?8ec959",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Withered Isle Realm to 20 %.\n\"Expel malthought from your mind, from your heart, from your mouth, to prevent the darkness from corrupting your truth.\nFor to let darkness find seed in your soul is to invite The Druanee.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Withered Isle Realm to 20 %.\n\"Expel malthought from your mind, from your heart, from your mouth, to prevent the darkness from corrupting your truth.\nFor to let darkness find seed in your soul is to invite The Druanee.\""
     },
     {
       "name": "Yamaoka Family Crest",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_yamaokaFamilyCrest.png?b6188c",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Yamaoka Estate Realm to 20 %.\n\"You never leave a broken home.\nYou only run away until the memories stop haunting you.\""
+      "description": "\nCalls upon The Entity for the following effect:\nIncreases the chances to be sent to a Map in the Yamaoka Estate Realm to 20 %.\n\"You never leave a broken home.\nYou only run away until the memories stop haunting you.\""
     },
     {
       "name": "Shroud of Union",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_shroudOfUnion.png?570201",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nYou start the Trial together with someone else.\n\"A knotted piece of fabric.\""
+      "description": "\nCalls upon The Entity for the following effect:\nYou start the Trial together with someone else.\n\"A knotted piece of fabric.\""
     },
     {
       "name": "Vigo's Shroud",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_vigosShroud.png?7718f0",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nCauses you to spawn as far away from the Killer as possible.\n\"I found marvels through the years in The Fog, but only now do I understand how to bend The Fog's irrefragable rules.\" — Vigo's Journal"
+      "description": "\nCalls upon The Entity for the following effect:\nCauses you to spawn as far away from the Killer as possible.\n\"I found marvels through the years in The Fog, but only now do I understand how to bend The Fog's irrefragable rules.\" — Vigo's Journal"
     },
     {
       "name": "Sacrificial Ward",
@@ -5795,12 +5795,22 @@
     {
       "name": "Black Ward",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_blackWard.png?6586a8",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nCauses your Add-ons to not be consumed after ending the Trial.\n\"Hear my voice, spare my ways, protect me from the void.\""
+      "description": "\nCalls upon The Entity for the following effect:\nCauses your Add-ons to not be consumed after ending the Trial.\n\"Hear my voice, spare my ways, protect me from the void.\""
     },
     {
       "name": "White Ward",
       "image": "https://deadbydaylight.wiki.gg/images/IconFavors_whiteWard.png?c5222c",
-      "description": "THIS OFFERING IS SECRET\nCalls upon The Entity for the following effect:\nCauses your held Item to be protected from loss upon death.\nCauses any attached Add-ons to not be consumed upon death or escaping the Trial.\n\"Keep me from evil, defend me, and pass away.\""
+      "description": "\nCalls upon The Entity for the following effect:\nCauses your held Item to be protected from loss upon death.\nCauses any attached Add-ons to not be consumed upon death or escaping the Trial.\n\"Keep me from evil, defend me, and pass away.\""
+    },
+    {
+      "name": "Any Offering",
+      "image": "IconModifier_chaosShuffle.png",
+      "description": "Pick any offering of your choosing"
+    },
+    {
+      "name": "No Offering",
+      "image": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
+      "description": "Nothing"
     }
   ]
 }
