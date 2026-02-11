@@ -36,5 +36,5 @@ async function parsePerks(url) {
     survivor: await parsePerks("https://deadbydaylight.wiki.gg/wiki/Survivor_Perks"),
   };
   // Write back into file
-  writeFileSync("../perks.json", JSON.stringify(perks, null, "\t"));
+  writeFileSync("./perks.json", JSON.stringify(perks, null, "\t"));
 })();

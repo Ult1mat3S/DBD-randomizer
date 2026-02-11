@@ -57,7 +57,11 @@ button {
 }
 
 a:hover {
-  color: #a4a2a2;
+  color: #747bff;
+}
+
+a {
+  color: #e2ce97;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -83,4 +87,16 @@ a:hover {
 .light,
 .a {
   color: #0a0a0a;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
