@@ -21,9 +21,9 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:Ult1mat3S/Ult1mat3S.github.io.git main
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io main:gh-pages
+git push -f git@github.com:Ult1mat3S/DBD-randomizer main:gh-pages
 
 cd -

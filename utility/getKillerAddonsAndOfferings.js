@@ -129,7 +129,7 @@ async function parseOfferings(url) {
       }),
     };
 
-    writeFileSync("./killer-Items2.json", JSON.stringify(data, null, "\t"));
+    writeFileSync("./killerItems.json", JSON.stringify(data, null, "\t"));
     console.log(`Saved to killerItems.json`);
   } catch (error) {
     console.error(error);
