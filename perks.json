@@ -219,7 +219,7 @@
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/IconPerks_dyingLight.png",
       "perkName": "Dying Light",
-      "description": "Identical%20to%20%3Ca%20href=%22https://deadbydaylight.wiki.gg/wiki/Cull_the_Weak%22%20title=%22Cull%20the%20Weak%22%3ECull%20the%20Weak%3C/a%3E.%0A%3Cp%3E%3Ci%3E%3Cspan%20%22%20style=%22color:%20#e7cda2;%22%3E%22This%20isn't%20a%20man...%22%20%E2%80%94%20Dr%20Sam%20Loomis%3C/span%3E%3C/i%3E%0A%3C/p%3E",
+      "description": "Each%20time%20you%20hook%20a%20Survivor%20other%20than%20your%20%3Ci%3E%3Cb%3E%3Ca%20href=%22https://deadbydaylight.wiki.gg/wiki/Obsession%22%20title=%22Obsession%22%3EObsession%3C/a%3E%3C/b%3E%3C/i%3E,%20you%20gain%20%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clryellow%22%20style=%22color:%20#e8c252;%22%3E+1%20Token%3C/span%3E%3C/b%3E:%0A%3Cul%3E%3Cli%3EFor%20as%20long%20as%20the%20%3Cb%3E%3Ci%3EObsession%3C/i%3E%3C/b%3E%20is%20alive,%20all%20other%20Survivors%20suffer%20from%20a%20stack-able%20%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr2%22%20style=%22color:%20#199b1e;%22%3E2%3C/span%3E%3C/b%3E/%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr3%22%20style=%22color:%20#2f9cd6;%22%3E2.5%3C/span%3E%3C/b%3E/%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr4%22%20style=%22color:%20#ac3ee3;%22%3E3%3C/span%3E%3C/b%3E%20%3Cb%3E%25%3C/b%3E%20per%20Token%20Action%20Speed%20penalty%20to%20Repairing,%20Healing,%20and%20Sabotaging,%20up%20to%20a%20maximum%20of%20%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr2%22%20style=%22color:%20#199b1e;%22%3E22%3C/span%3E%3C/b%3E/%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr3%22%20style=%22color:%20#2f9cd6;%22%3E27.5%3C/span%3E%3C/b%3E/%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr4%22%20style=%22color:%20#ac3ee3;%22%3E33%3C/span%3E%3C/b%3E%20%3Cb%3E%25%3C/b%3E%20or%20%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr6%22%20style=%22color:%20#ff8800;%22%3E11%20Tokens%3C/span%3E%3C/b%3E.%3C/li%3E%0A%3Cli%3EThe%20%3Cb%3E%3Ci%3EObsession%3C/i%3E%3C/b%3E%20is%20unaffected%20by%20this%20penalty%20and%20instead%20granted%20a%20permanent%20%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr8%22%20style=%22color:%20#d41c1c;%22%3E+33&nbsp;%25%3C/span%3E%3C/b%3E%20Action%20Speed%20bonus%20to%20Unhooking%20and%20Healing%20other%20Survivors.%3C/li%3E%3C/ul%3E%0A%3Cp%3E%3Ci%3EYou%20can%20only%20be%20%3Cb%3Eobsessed%3C/b%3E%20with%20one%20Survivor%20at%20a%20time.%3C/i%3E%0A%3C/p%3E%0A%3Cp%20class=%22mw-empty-elt%22%3E%0A%3C/p%3E Identical%20to%20%3Ca%20href=%22https://deadbydaylight.wiki.gg/wiki/Cull_the_Weak%22%20title=%22Cull%20the%20Weak%22%3ECull%20the%20Weak%3C/a%3E.%0A%3Cp%3E%3Ci%3E%3Cspan%20%22%20style=%22color:%20#e7cda2;%22%3E%22This%20isn't%20a%20man...%22%20%E2%80%94%20Dr%20Sam%20Loomis%3C/span%3E%3C/i%3E%0A%3C/p%3E ",
       "character": "Shape",
       "characterImage": "/images/K05_TheShape_Portrait.png?f9bf22"
     },
@@ -1448,7 +1448,7 @@
       "perkName": "Fast Track",
       "description": "%3Ci%3E%3Cspan%20%22%20style=%22color:%20#e7cda2;%22%3E%22Sometimes%20the%20sacrifice%20of%20others%20is%20necessary%20to%20get%20ahead.%22%3C/span%3E%3C/i%3E%0A%3Cp%3EWhenever%20a%20Survivor%20other%20than%20yourself%20is%20hooked,%20%3Ci%3EFast%20Track%3C/i%3E%20is%20granted%20%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr2%22%20style=%22color:%20#199b1e;%22%3E1%3C/span%3E%3C/b%3E/%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr3%22%20style=%22color:%20#2f9cd6;%22%3E2%3C/span%3E%3C/b%3E/%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr4%22%20style=%22color:%20#ac3ee3;%22%3E3%3C/span%3E%3C/b%3E%20%3Cb%3EToken(s)%3C/b%3E,%20up%20to%20a%20maximum%20of%20%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr2%22%20style=%22color:%20#199b1e;%22%3E9%3C/span%3E%3C/b%3E/%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr3%22%20style=%22color:%20#2f9cd6;%22%3E18%3C/span%3E%3C/b%3E/%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clr4%22%20style=%22color:%20#ac3ee3;%22%3E27%3C/span%3E%3C/b%3E%20%3Cb%3ETokens%3C/b%3E.%0A%3C/p%3E%3Cul%3E%3Cli%3ESucceeding%20a%20%3Ci%3EGreat%20Repair%20Skill%20Check%3C/i%3E%20consumes%20all%20accumulated%20Tokens.%3C/li%3E%0A%3Cli%3E%3Cb%3EIncreases%3C/b%3E%20the%20bonus%20Progression%20awarded%20for%20succeeding%20that%20%3Ca%20href=%22https://deadbydaylight.wiki.gg/wiki/Skill_Check%22%20class=%22mw-redirect%22%20title=%22Skill%20Check%22%3ESkill%20Check%3C/a%3E%20by%20a%20stack-able%20%3Cb%3E%3Cspan%20class=%22luaClr%20clr%20clryellow%22%20style=%22color:%20#e8c252;%22%3E+1&nbsp;%25%3C/span%3E%3C/b%3E%20per%20Token.%3C/li%3E%3C/ul%3E%0A%0A%3Ci%3E%3Cspan%20%22%20style=%22color:%20#e7cda2;%22%3E%22The%20weak%20are%20sacrificed%20first.%20It's%20nature,%20it's%20business...%20it's%20the%20truth%20most%20refuse%20to%20face.%22%20%E2%80%94%20Yun-Jin%20Lee%3C/span%3E%3C/i%3E%0A",
       "character": "Yun-Jin Lee",
-      "characterImage": "/images/S25_Yun-JinLee_Portrait.png?1d1ab0"
+      "characterImage": "/images/S25_LeeYun-jin_Portrait.png?1d1ab0"
     },
     {
       "perkImage": "https://deadbydaylight.wiki.gg/images/IconPerks_finesse.png",
@@ -2146,7 +2146,7 @@
       "characterImage": "/images/S32_AdaWong_Portrait.png?1073d0"
     },
     {
-      "perkImage": "static/IconModifier_chaosShuffle.png",
+      "perkImage": "IconModifier_chaosShuffle.png",
       "perkName": "Any perk",
       "description": "Pick any perk of your choosing"
     },

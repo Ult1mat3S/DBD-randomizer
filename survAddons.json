@@ -4,489 +4,375 @@
       "name": "Battery",
       "item": "Flashlight",
       "itemKey": "flashlight",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_battery.png",
-      "rarity": "Common",
-      "description": "Increases the Flashlight's battery life by +2 seconds."
-    },
-    {
-      "name": "Leather Grip",
-      "item": "Flashlight",
-      "itemKey": "flashlight",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_leatherGrip.png",
-      "rarity": "Common",
-      "description": "Increases the Aim accuracy of the Flashlight by +20 %."
-    },
-    {
-      "name": "Power Bulb",
-      "item": "Flashlight",
-      "itemKey": "flashlight",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_powerBulb.png",
-      "rarity": "Common",
-      "description": "Increases the Beam brightness and Blindness duration of the Flashlight by +10 %."
-    },
-    {
-      "name": "Filament Bulb",
-      "item": "Flashlight",
-      "itemKey": "flashlight",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_lowAmpFilament.png?f5a968",
-      "rarity": "Uncommon",
-      "description": "Reduces the Battery Depletion rate by -24 %."
-    },
-    {
-      "name": "Heavy Duty Battery",
-      "item": "Flashlight",
-      "itemKey": "flashlight",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_heavyDutyBattery.png",
-      "rarity": "Uncommon",
-      "description": "Increases the Flashlight's battery life by +4 seconds."
-    },
-    {
-      "name": "Tir-Optic",
-      "item": "Flashlight",
-      "itemKey": "flashlight",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_tirOptic.png",
-      "rarity": "Uncommon",
-      "description": "A lens and reflector combo which can magnify a Flashlight's beam. Increases the brightness of the Beam by +30 %. Increases the duration of a successful Blind by +15 %. Let the light burn them out of their dark shroud."
-    },
-    {
-      "name": "Intense Halogen",
-      "item": "Flashlight",
-      "itemKey": "flashlight",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_intenseHalogen.png",
-      "rarity": "Rare",
-      "description": "A chemical bulb that generates an intensely clear light. Increases the brightness of the Beam by +40 %. Increases the duration of a successful Blind by +20 %."
-    },
-    {
-      "name": "Long Life Battery",
-      "item": "Flashlight",
-      "itemKey": "flashlight",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_longLifeBattery.png",
-      "rarity": "Rare",
-      "description": "A recent model of battery that lasts longer. Extends the Battery life by +6 seconds."
-    },
-    {
-      "name": "Odd Bulb",
-      "item": "Flashlight",
-      "itemKey": "flashlight",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_oddBulb.png",
-      "rarity": "Ultra Rare",
-      "description": "A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off. Increases the brightness of the Beam by +50 %. Increases the duration of a successful Blind by +25 %. Increases the Battery Depletion rate by +14 %."
-    },
-    {
-      "name": "Friendship Charm",
-      "item": "Key",
-      "itemKey": "key",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_friendshipCharm.png?691b29",
-      "rarity": "Very Rare",
-      "description": "Someone's thumb has worn off the initials once carved into it. Modifies the Key with the following effect: Increases its Charges by +1."
-    },
-    {
-      "name": "Braided Bauble",
-      "item": "Key",
-      "itemKey": "key",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_braidedBauble.png?332519",
-      "rarity": "Uncommon",
-      "description": "Four thin but sturdy cords, all masterfully wrapped around one another. Modifies the Key with the following effect: Increases its Aura-reading duration by +2 seconds."
-    },
-    {
-      "name": "Gold Token",
-      "item": "Key",
-      "itemKey": "key",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_shrillWhistle.png?101507",
-      "rarity": "Rare",
-      "description": "The high-pitched scream gives a sense of urgency to everything. Modifies the Key with the following effect: Reduces the time it takes to channel the Key by -35 %."
-    },
-    {
-      "name": "Blood Amber",
-      "item": "Key",
-      "itemKey": "key",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_bloodAmber.png?a1d50c",
-      "rarity": "Very Rare",
-      "description": "A blood-red amber striped with black veins. The amber is warm to the touch. Modifies the Key with the following effects: Reduces its Aura-reveal time by -6 seconds. Reduces its Charges by -2. While using the Key, the following effects apply: The Aura IconHelp auras.png of the Killer is revealed to you. Your Aura is revealed to the Killer."
-    },
-    {
-      "name": "Unique Wedding Ring",
-      "item": "Key",
-      "itemKey": "key",
-      "image": "https://deadbydaylight.wiki.gg/images/IconAddon_uniqueWeddingRing.png?d0e1de",
-      "rarity": "Very Rare",
-      "description": "An engraved wedding ring that emerged from the Fog and resonates with an indescribable and incomprehensible energy. Modifies the Key with the following effects: The aura of the Obsession is permanently revealed to you. Your Aura is permanently revealed to the Obsession. Unique Wedding Ring applies its effects passively and does not require actively using the Key. Reduces your chance of becoming the initial Obsession by reducing the default value by -100 %."
-    },
-    {
-      "name": "Battery",
-      "item": "Flashlight",
-      "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_battery.png?a920d6",
-      "description": "A standard battery of unknown brand. Increases the Battery life by +2 seconds. Another nearly empty battery."
+      "description": "A standard battery of unknown brand.\n<ul><li><b>Increases</b> the Battery life by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+2 seconds</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Another nearly empty battery.\"</span></i>\n</p>"
     },
     {
       "name": "Leather Grip",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_leatherGrip.png?a65ecf",
-      "description": "A leather strip wrapped around the Flashlight for more grip. Increases the Aim accuracy by +20 %. Too many have fallen due to sweaty hands."
+      "description": "A leather strip wrapped around the Flashlight for more grip.\n<ul><li><b>Increases</b> the Aim accuracy by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+20&nbsp;%</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Too many have fallen due to sweaty hands.\"</span></i>\n</p>"
     },
     {
       "name": "Power Bulb",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_powerBulb.png?5ed525",
-      "description": "A tiny Flashlight bulb that packs more wattage for a brighter, more powerful light beam. Increases the brightness of the Beam by +20 %. Increases the duration of a successful Blind by +10 %. Even the most powerful light cannot pierce through The Black Fog's darkness."
+      "description": "A tiny Flashlight bulb that packs more wattage for a brighter, more powerful light beam.\n<ul><li><b>Increases</b> the brightness of the Beam by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+20&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the duration of a successful Blind by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+10&nbsp;%</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Even the most powerful light cannot pierce through The Black Fog's darkness.\"</span></i>\n</p>"
     },
     {
       "name": "Wide Lens",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_wideLens.png?c54743",
-      "description": "A thin wide lens in perfect condition. Designed to spread the Flashlight beam at the cost of reducing its range of effectiveness. Increases the width of the Beam by +25 %. Reduces the reach of the Beam by -25 %."
+      "description": "A thin wide lens in perfect condition.<br>Designed to spread the Flashlight beam at the cost of reducing its range of effectiveness.\n<ul><li><b>Increases</b> the width of the Beam by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+25&nbsp;%</span></b>.</li>\n<li><b>Reduces</b> the reach of the Beam by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-25&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Focus Lens",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_focusLens.png?10aa35",
-      "description": "A thick glass lens that focuses the Flashlight beam to increase its intensity. Increases the reach of the Beam by +25 %. Increases the brightness by +20 %. Increases the duration of a successful Blind by +10 %. Reduces the width of the Beam by -15 %."
+      "description": "A thick glass lens that focuses the Flashlight beam to increase its intensity.\n<ul><li><b>Increases</b> the reach of the Beam by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+25&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the brightness by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+20&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the duration of a successful Blind by <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">+10&nbsp;%</span></b>.</li>\n<li><b>Reduces</b> the width of the Beam by <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">-15&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Heavy Duty Battery",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_heavyDutyBattery.png?35eb69",
-      "description": "A battery marked as industrial strength. Increases the Battery life by +4 seconds. A battery advertised as lasting 8 hours lasts only a couple of seconds in The Black Fog."
+      "description": "A battery marked as <i>\"industrial strength\"</i>.\n<ul><li><b>Increases</b> the Battery life by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+4 seconds</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"A battery advertised as lasting 8 hours lasts only a couple of seconds in The Black Fog.\"</span></i>\n</p>"
     },
     {
       "name": "Low Amp Filament",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_lowAmpFilament.png?f5a968",
-      "description": "A filament bulb designed to extend a Flashlight battery's life. Reduces the Battery Depletion rate by -24 %."
+      "description": "A filament bulb designed to extend a Flashlight battery's life.\n<ul><li><b>Reduces</b> the Battery Depletion rate by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">-24&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Rubber Grip",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_rubberGrip.png?22b372",
-      "description": "A rubber grip specifically fitting Flashlights for more grip. Increases the Aim accuracy by +40 %."
+      "description": "A rubber grip specifically fitting Flashlights for more grip.\n<ul><li><b>Increases</b> the Aim accuracy by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+40&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "TIR Optic",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_tirOptic.png?3ff606",
-      "description": "A lens and reflector combo which can magnify a Flashlight's beam. Increases the brightness of the Beam by +30 %. Increases the duration of a successful Blind by +15 %. Let the light burn them out of their dark shroud."
+      "description": "A lens and reflector combo which can magnify a Flashlight's beam.\n<ul><li><b>Increases</b> the brightness of the Beam by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+30&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the duration of a successful Blind by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+15&nbsp;%</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Let the light burn them out of their dark shroud.\"</span></i>\n</p>"
     },
     {
       "name": "Intense Halogen",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_intenseHalogen.png?63ceae",
-      "description": "A chemical bulb that generates an intensely clear light. Increases the brightness of the Beam by +40 %. Increases the duration of a successful Blind by +20 %."
+      "description": "A chemical bulb that generates an intensely clear light.\n<ul><li><b>Increases</b> the brightness of the Beam by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+40&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the duration of a successful Blind by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+20&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Long Life Battery",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_longLifeBattery.png?7901dd",
-      "description": "A recent model of battery that lasts longer. Extends the Battery life by +6 seconds."
+      "description": "A recent model of battery that lasts longer.\n<ul><li><b>Extends</b> the Battery life by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+6 seconds</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "High-End Sapphire Lens",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_high-EndSapphireLens.png?366d07",
-      "description": "A wide lens made of unscratchable sapphire that optimises the power and range of the light beam. Increases the reach of the Beam by +25 %. Increases the brightness of the Beam by +30 %. Increases the duration of a successful Blind by +15 %. Reduces the width of the Beam by -25 %."
+      "description": "A wide lens made of unscratchable sapphire that optimises the power and range of the light beam.\n<ul><li><b>Increases</b> the reach of the Beam by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+25&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the brightness of the Beam by <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">+30&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the duration of a successful Blind by <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">+15&nbsp;%</span></b>.</li>\n<li><b>Reduces</b> the width of the Beam by <b><span class=\"luaClr clr clrgreen\" style=\"color: #199b1e;\">-25&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Odd Bulb",
       "item": "Flashlight",
       "itemKey": "flashlight",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_oddBulb.png?3dac55",
-      "description": "A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off. Increases the brightness of the Beam by +50 %. Increases the duration of a successful Blind by +25 %. Increases the Battery Depletion rate by +14 %."
+      "description": "A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off.\n<ul><li><b>Increases</b> the brightness of the Beam by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+50&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the duration of a successful Blind by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+25&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the Battery Depletion rate by <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">+14&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Volcanic Stone",
       "item": "Fog Vial",
-      "itemKey": "Fog Vial",
+      "itemKey": "fog vial",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_volcanicStone.png?2668a4",
-      "description": "The heat of its birthplace glows within this living rock. Modifies the Fog Vial with the following effect: Reduces the Recharge time of the Fog Cloud by -5 seconds."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"The heat of its birthplace glows within this living rock.\"</span></i>\n<p>Modifies the <b>Fog Vial</b> with the following effect:\n</p><ul><li><b>Reduces</b> the Recharge time of the <i>Fog Cloud</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">-5 seconds</span></b>.</li></ul>"
     },
     {
       "name": "Reactive Compound",
       "item": "Fog Vial",
-      "itemKey": "Fog Vial",
+      "itemKey": "fog vial",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_reactiveCompound.png?6da483",
-      "description": "Pressure builds within the vial. Its contents beg for release. Modifies the Fog Vial with the following effect: Reduces the Expansion time of the Fog Cloud by -1 second."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Pressure builds within the vial. Its contents beg for release.\"</span></i>\n<p>Modifies the <b>Fog Vial</b> with the following effect:\n</p><ul><li><b>Reduces</b> the Expansion time of the <i>Fog Cloud</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">-1 second</span></b>.</li></ul>"
     },
     {
       "name": "Oily Sap",
       "item": "Fog Vial",
-      "itemKey": "Fog Vial",
+      "itemKey": "fog vial",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_oilySap.png?26f3d7",
-      "description": "The emerging fog clings to the air, overwhelming the senses for even longer. Modifies the Fog Vial with the following effect: Increases the duration of the Fog Cloud by +2 seconds."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"The emerging fog clings to the air, overwhelming the senses for even longer.\"</span></i>\n<p>Modifies the <b>Fog Vial</b> with the following effect:\n</p><ul><li><b>Increases</b> the duration of the <i>Fog Cloud</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+2 seconds</span></b>.</li></ul>"
     },
     {
       "name": "Mushroom Formula",
       "item": "Fog Vial",
-      "itemKey": "Fog Vial",
+      "itemKey": "fog vial",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_mushroomFormula.png?8eaef3",
-      "description": "Blooming wisps of fog grasp at the environment, reaching farther and farther out. Modifies the Fog Vial with the following effect: Increases the maximum size of the Fog Cloud by +2 metres."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Blooming wisps of fog grasp at the environment, reaching farther and farther out.\"</span></i>\n<p>Modifies the <b>Fog Vial</b> with the following effect:\n</p><ul><li><b>Increases</b> the maximum size of the <i>Fog Cloud</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+2 metres</span></b>.</li></ul>"
     },
     {
       "name": "Potent Extract",
       "item": "Fog Vial",
-      "itemKey": "Fog Vial",
+      "itemKey": "fog vial",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_potentExtract.png?7fdc2f",
-      "description": "One drop is enough to change the consistency of this strange elixir. Modifies the Fog Vial with the following effects: Increases the opacity of the Fog Cloud  by +5 %. Reduces the duration of the Fog Cloud by -50 %. Reduces  the size of the Fog Cloud by -25 %."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"One drop is enough to change the consistency of this strange elixir.\"</span></i>\n<p>Modifies the <b>Fog Vial</b> with the following effects:\n</p><ul><li><b>Increases</b> the opacity of the <i>Fog Cloud</i>  by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+5&nbsp;%</span></b>.</li>\n<li><b>Reduces</b> the duration of the <i>Fog Cloud</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-50&nbsp;%</span></b>.</li>\n<li><b>Reduces </b> the size of the <i>Fog Cloud</i> by <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-25&nbsp;%</span></b>.</li></ul>"
     },
     {
       "name": "Friendship Charm",
       "item": "Key",
       "itemKey": "key",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_friendshipCharm.png?691b29",
-      "description": "Someone's thumb has worn off the initials once carved into it. Modifies the Key with the following effect: Increases its Charges by +1."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Someone's thumb has worn off the initials once carved into it.\"</span></i>\n<p>Modifies the <b>Key</b> with the following effect:\n</p><ul><li><b>Increases</b> its Charges by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+1</span></b>.</li></ul>"
     },
     {
       "name": "Shrill Whistle",
       "item": "Key",
       "itemKey": "key",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_shrillWhistle.png?101507",
-      "description": "The high-pitched scream gives a sense of urgency to everything. Modifies the Key with the following effect: Reduces the time it takes to channel the Key by -35 %."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"The high-pitched scream gives a sense of urgency to everything.\"</span></i>\n<p>Modifies the <b>Key</b> with the following effect:\n</p><ul><li><b>Reduces</b> the time it takes to channel the <b>Key</b> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">-35&nbsp;%</span></b>.</li></ul>"
     },
     {
       "name": "Braided Bauble",
       "item": "Key",
       "itemKey": "key",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_braidedBauble.png?332519",
-      "description": "Four thin but sturdy cords, all masterfully wrapped around one another. Modifies the Key with the following effect: Increases its Aura-reading duration by +2 seconds."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Four thin but sturdy cords, all masterfully wrapped around one another.\"</span></i>\n<p>Modifies the <b>Key</b> with the following effect:\n</p><ul><li><b>Increases</b> its Aura-reading duration by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+2 seconds</span></b>.</li></ul>"
     },
     {
       "name": "Unique Wedding Ring",
       "item": "Key",
       "itemKey": "key",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_uniqueWeddingRing.png?d0e1de",
-      "description": "An engraved wedding ring that emerged from the Fog and resonates with an indescribable and incomprehensible energy. Modifies the Key with the following effects: The Aura of the Obsession is permanently revealed to you. Your Aura is permanently revealed to the Obsession. Unique Wedding Ring applies its effects passively and does not require actively using the Key. Reduces your chance of becoming the initial  Obsession by reducing the default value by -100 %."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"An engraved wedding ring that emerged from the Fog and resonates with an indescribable and incomprehensible energy.\"</span></i>\n<p>Modifies the <b>Key</b> with the following effects:\n</p><ul><li>The <a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" class=\"mw-redirect\" title=\"Aura\">Aura</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/64px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/96px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/32px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> of the <i><b><a href=\"https://deadbydaylight.wiki.gg/wiki/Obsession\" title=\"Obsession\">Obsession</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Obsession\" title=\"Obsession\"><img alt=\"IconHelp obsession.png\" src=\"/images/thumb/IconHelp_obsession.png/64px-IconHelp_obsession.png?7c3638\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Obsession\" title=\"Obsession\"><img alt=\"IconHelp obsession.png\" src=\"/images/thumb/IconHelp_obsession.png/96px-IconHelp_obsession.png?7c3638\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Obsession\" title=\"Obsession\"><img alt=\"IconHelp obsession.png\" src=\"/images/thumb/IconHelp_obsession.png/32px-IconHelp_obsession.png?7c3638\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></b></i> is permanently revealed to you.</li>\n<li>Your Aura is permanently revealed to the <b><i>Obsession</i></b>.</li></ul>\n\n<i>Unique Wedding Ring</i> applies its effects passively and does not require actively using the <b>Key</b>.<br><b>Reduces</b> your chance of becoming the initial  <b><i>Obsession</i></b> by reducing the default value by <b>-100&nbsp;%</b>."
     },
     {
       "name": "Blood Amber",
       "item": "Key",
       "itemKey": "key",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_bloodAmber.png?a1d50c",
-      "description": "A blood-red amber striped with black veins. The amber is warm to the touch. Modifies the Key with the following effects: Reduces its Aura-reveal time by -6 seconds. Reduces its Charges by -2. While using the Key, the following effects apply: The Aura of the Killer is revealed to you. Your Aura is revealed to the Killer."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"A blood-red amber striped with black veins.<br>The amber is warm to the touch.\"</span></i>\n<p>Modifies the <b>Key</b> with the following effects:\n</p><ul><li><b>Reduces</b> its Aura-reveal time by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">-6 seconds</span></b>.</li>\n<li><b>Reduces</b> its Charges by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-2</span></b>.</li></ul>\n\nWhile using the <b>Key</b>, the following effects apply:\n<ul><li>The <a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" class=\"mw-redirect\" title=\"Aura\">Aura</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/64px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/96px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/32px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> of the Killer is revealed to you.</li>\n<li>Your Aura is revealed to the Killer.</li></ul>"
     },
     {
       "name": "Glowing Ink",
       "item": "Map",
       "itemKey": "map",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_glowingInk.png?976c14",
-      "description": "Some of the images seemed to jump right off the page. Modifies the Map with the following effect: Increases the duration it reveals Auras for by +2 seconds."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Some of the images seemed to jump right off the page.\"</span></i>\n<p>Modifies the <b>Map</b> with the following effect:\n</p><ul><li><b>Increases</b> the duration it reveals <a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" class=\"mw-redirect\" title=\"Aura\">Auras</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/64px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/96px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/32px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> for by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+2 seconds</span></b>.</li></ul>"
     },
     {
       "name": "Gnarled Compass",
       "item": "Map",
       "itemKey": "map",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_gnarledCompass.png?b2ac98",
-      "description": "It seems to set itself to the perfect distance every time. Modifies the Map with the following effect: Increases its Charges by +2."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"It seems to set itself to the perfect distance every time.\"</span></i>\n<p>Modifies the <b>Map</b> with the following effect:\n</p><ul><li><b>Increases</b> its Charges by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+2</span></b>.</li></ul>"
     },
     {
       "name": "Battered Tape",
       "item": "Map",
       "itemKey": "map",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_batteredTape.png?635d3f",
-      "description": "Additional pieces of parchment hung loosely from the map, hastily affixed with tape. Modifies the Map with the following effect: Increases its maximum range by +8 metres."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Additional pieces of parchment hung loosely from the map, hastily affixed with tape.\"</span></i>\n<p>Modifies the <b>Map</b> with the following effect:\n</p><ul><li><b>Increases</b> its maximum range by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+8 metres</span></b>.</li></ul>"
     },
     {
       "name": "Sharpened Flint",
       "item": "Map",
       "itemKey": "map",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_sharpenedFlint.png?25de8f",
-      "description": "When sparked near the map, new sigils appeared in unexpected locations. Modifies the Map with the following effect: Grants the ability to track the location of Totems and reveal their Auras, when using the Map."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"When sparked near the map, new sigils appeared in unexpected locations.\"</span></i>\n<p>Modifies the <b>Map</b> with the following effect:\n</p><ul><li>Grants the ability to track the location of <a href=\"https://deadbydaylight.wiki.gg/wiki/Totem\" class=\"mw-redirect\" title=\"Totem\">Totems</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Totem\" title=\"Totem\"><img alt=\"IconHelpLoading totem.png\" src=\"/images/thumb/IconHelpLoading_totem.png/64px-IconHelpLoading_totem.png?c43cce\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Totem\" title=\"Totem\"><img alt=\"IconHelpLoading totem.png\" src=\"/images/thumb/IconHelpLoading_totem.png/96px-IconHelpLoading_totem.png?c43cce\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Totem\" title=\"Totem\"><img alt=\"IconHelpLoading totem.png\" src=\"/images/thumb/IconHelpLoading_totem.png/32px-IconHelpLoading_totem.png?c43cce\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> and reveal their <a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" class=\"mw-redirect\" title=\"Aura\">Auras</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/64px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/96px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/32px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span>, when using the <b>Map</b>.</li></ul>"
     },
     {
       "name": "Crimson Stamp",
       "item": "Map",
       "itemKey": "map",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_crimsonStamp.png?4a05ab",
-      "description": "Only those with absolute confidence dared to place their seal upon the map. Modifies the Map with the following effects: The Aura of the Killer is revealed to all Survivors when within 8 metres of the Beam of Light. Reduces the Life time of the Beam of Light by -10 seconds. Reduces its Charges by -2."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Only those with absolute confidence dared to place their seal upon the map.\"</span></i>\n<p>Modifies the <b>Map</b> with the following effects:\n</p><ul><li>The <a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" class=\"mw-redirect\" title=\"Aura\">Aura</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/64px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/96px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Aura\" title=\"Aura\"><img alt=\"IconHelp auras.png\" src=\"/images/thumb/IconHelp_auras.png/32px-IconHelp_auras.png?8b3acd\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> of the Killer is revealed to all Survivors when within <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">8 metres</span></b> of the <i>Beam of Light</i>.</li>\n<li><b>Reduces</b> the Life time of the <i>Beam of Light</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-10 seconds</span></b>.</li>\n<li><b>Reduces</b> its Charges by <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-2</span></b>.</li></ul>"
     },
     {
       "name": "Bandages",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_bandages.png?eb0625",
-      "description": "A pack of bandages usually found in First Aid Kits. Increases the available Healing Charges by +8 Charges."
+      "description": "A pack of bandages usually found in First Aid Kits.\n<ul><li><b>Increases</b> the available Healing Charges by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+8 Charges</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Butterfly Tape",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_butterflyTape.png?f18e7b",
-      "description": "Medical quality tape used to close small wounds. Increases the Healing speed by +5 %."
+      "description": "Medical quality tape used to close small wounds.\n<ul><li><b>Increases</b> the Healing speed by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+5&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Rubber Gloves",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_rubberGloves.png?763724",
-      "description": "Disposable medical gloves to avoid cross-contamination. Increases the Great Success zone of Healing Skill Checks by +10 %."
+      "description": "Disposable medical gloves to avoid cross-contamination.\n<ul><li><b>Increases</b> the Great Success zone of <i>Healing Skill Checks</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+10&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Medical Scissors",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_medicalScissors.png?ec20a2",
-      "description": "Scissors designed to easily cut through textiles. Increases the Healing speed by +10 %."
+      "description": "Scissors designed to easily cut through textiles.\n<ul><li><b>Increases</b> the Healing speed by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+10&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Needle & Thread",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_needle%26Thread.png?a433ea",
-      "description": "Not exactly a medical device. However, it can be used to quickly and painfully close up a wound. Increases the Odds of triggering Healing Skill Checks by +10 %. Increases the Progression bonus for succeeding at Great Healing Skill Checks by +5 %."
+      "description": "Not exactly a medical device.<br>However, it can be used to quickly and painfully close up a wound.\n<ul><li><b>Increases</b> the Odds of triggering <i>Healing Skill Checks</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+10&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the Progression bonus for succeeding at <i>Great Healing Skill Checks</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+5&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Self Adherent Wrap",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_selfAdherentWrap.png?cb4dfe",
-      "description": "A pack of bandages that stick to themselves without the need of clips for a faster patch-up that requires less readjustments. Increases the Healing speed by +5 %. Increases the available Healing Charges by +8 Charges."
+      "description": "A pack of bandages that stick to themselves without the need of clips for a faster patch-up that requires less readjustments.\n<ul><li><b>Increases</b> the Healing speed by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+5&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the available Healing Charges by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+8 Charges</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Sponge",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_sponge.png?cb4971",
-      "description": "A mundane sponge used to soak up extra blood, providing easier access to wounds. Increases the Great Success zone of Healing Skill Checks by +20 %."
+      "description": "A mundane sponge used to soak up extra blood, providing easier access to wounds.\n<ul><li><b>Increases</b> the Great Success zone of <i>Healing Skill Checks</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+20&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Gauze Roll",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_gauzeRoll.png?a94896",
-      "description": "A sterile gauze used for a variety of wounds. Part of a total wound care system. Increases the available Healing Charges by +10 Charges."
+      "description": "A sterile gauze used for a variety of wounds.<br>Part of a total wound care system.\n<ul><li><b>Increases</b> the available Healing Charges by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+10 Charges</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Surgical Suture",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_surgicalSuture.png?b14f4b",
-      "description": "A medical device used to close and hold body tissue. Even though it is very effective, the surgical suture is challenging to use. Increases the Odds of triggering Healing Skill Checks by +15 %. Increases the Progression bonus for succeeding at Great Healing Skill Checks by +10 %."
+      "description": "A medical device used to close and hold body tissue.<br>Even though it is very effective, the surgical suture is challenging to use.\n<ul><li><b>Increases</b> the Odds of triggering <i>Healing Skill Checks</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+15&nbsp;%</span></b>.</li>\n<li><b>Increases</b> the Progression bonus for succeeding at <i>Great Healing Skill Checks</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+10&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Abdominal Dressing",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_abdominalDressing.png?279ed7",
-      "description": "A highly absorbent pad that prevents bodily fluid leakage when applied to large abdominal wounds. Increases the Healing speed of Med-Kits by +15 %."
+      "description": "A highly absorbent pad that prevents bodily fluid leakage when applied to large abdominal wounds.\n<ul><li><b>Increases</b> the Healing speed of <b>Med-Kits</b> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+15&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Styptic Agent",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_stypticAgent.png?f659ee",
-      "description": "A white powder with coagulant properties. Apply the agent to a wound to stop it from haemorrhaging. Modifies the Med-Kit with the following effect: Increases the Efficiency of Personal Healing actions by +15 %."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"A white powder with coagulant properties.<br>Apply the agent to a wound to stop it from haemorrhaging.\"</span></i>\n<p>Modifies the <a href=\"https://deadbydaylight.wiki.gg/wiki/Med-Kit\" class=\"mw-redirect\" title=\"Med-Kit\">Med-Kit</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Med-Kit\" title=\"Med-Kit\"><img alt=\"IconItems firstAidKit.png\" src=\"/images/thumb/IconItems_firstAidKit.png/64px-IconItems_firstAidKit.png?c3dfd1\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"256\" data-file-height=\"256\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Med-Kit\" title=\"Med-Kit\"><img alt=\"IconItems firstAidKit.png\" src=\"/images/thumb/IconItems_firstAidKit.png/96px-IconItems_firstAidKit.png?c3dfd1\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"256\" data-file-height=\"256\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Med-Kit\" title=\"Med-Kit\"><img alt=\"IconItems firstAidKit.png\" src=\"/images/thumb/IconItems_firstAidKit.png/32px-IconItems_firstAidKit.png?c3dfd1\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"256\" data-file-height=\"256\"></a></span></span> with the following effect:\n</p><ul><li><b>Increases</b> the Efficiency of <i>Personal Healing</i> actions by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+15&nbsp;%</span></b>.</li></ul>"
     },
     {
       "name": "Anti-Exhaustion Syringe",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_anti-haemorrhagicSyringe.png?871c87",
-      "description": "A mysterious fluid that reinvigorates both body and mind. While using the Med-Kit to heal yourself or another Survivor, press the Secondary Action button to trigger the following effect: Causes the affected Survivor to instantly recover from the Exhausted Status Effect. Anti-Exhaustion Syringe consumes the Med-Kit after use."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"A mysterious fluid that reinvigorates both body and mind.\"</span></i>\n<p>While using the <a href=\"https://deadbydaylight.wiki.gg/wiki/Med-Kit\" class=\"mw-redirect\" title=\"Med-Kit\">Med-Kit</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Med-Kit\" title=\"Med-Kit\"><img alt=\"IconItems firstAidKit.png\" src=\"/images/thumb/IconItems_firstAidKit.png/64px-IconItems_firstAidKit.png?c3dfd1\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"256\" data-file-height=\"256\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Med-Kit\" title=\"Med-Kit\"><img alt=\"IconItems firstAidKit.png\" src=\"/images/thumb/IconItems_firstAidKit.png/96px-IconItems_firstAidKit.png?c3dfd1\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"256\" data-file-height=\"256\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Med-Kit\" title=\"Med-Kit\"><img alt=\"IconItems firstAidKit.png\" src=\"/images/thumb/IconItems_firstAidKit.png/32px-IconItems_firstAidKit.png?c3dfd1\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"256\" data-file-height=\"256\"></a></span></span> to heal yourself or another Survivor, press the <i>Secondary Action button</i> to trigger the following effect:\n</p><ul><li>Causes the affected Survivor to instantly recover from the <i><b><a href=\"https://deadbydaylight.wiki.gg/wiki/Exhausted\" class=\"mw-redirect\" title=\"Exhausted\">Exhausted</a></b></i><span class=\"iconLink debuff effect-wrapper scenario6\" style=\"--status-effect-main-size: 48px;\"><span class=\"effect-tier effect-tier-1\"></span><span class=\"effect-icon\" style=\"scale: 0.57;\"><span class=\"getIconShrinker\" style=\"--imageShrinkerSize: 48px\"><a href=\"https://deadbydaylight.wiki.gg/wiki/File:IconStatusEffects_exhausted.png\" class=\"image\"><img alt=\"IconStatusEffects exhausted.png\" src=\"/images/thumb/IconStatusEffects_exhausted.png/96px-IconStatusEffects_exhausted.png?cd5937\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span><span class=\"effect-foreground-wrapper\" style=\"display: none\"><span class=\"effect-foreground\"></span></span><span class=\"effect-background\"></span></span> <b>Status Effect</b>.</li></ul>\n\n<i>Anti-Exhaustion Syringe</i> consumes the <b>Med-Kit</b> after use."
     },
     {
       "name": "Gel Dressings",
       "item": "Medkit",
       "itemKey": "medkit",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_gelDressings.png?f8cce7",
-      "description": "A pack of gel forming pads used to patch up heavily exuding wounds. Increases the available Healing Charges by +16 Charges."
+      "description": "A pack of gel forming pads used to patch up heavily exuding wounds.\n<ul><li><b>Increases</b> the available Healing Charges by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+16 Charges</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Clean Rag",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_cleanRag.png?a8f97d",
-      "description": "A mundane rag. Suspiciously clean. Increases the Action speed for Toolbox Repair by +20 %."
+      "description": "A mundane rag.<br>Suspiciously clean.\n<ul><li><b>Increases</b> the Action speed for <i>Toolbox Repair</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+20&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Instructions",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_instructions.png?2c2543",
-      "description": "Someone quickly painted what seems to be repair instructions on this piece of bark. While repairing a Generator with a Toolbox, you benefit from the following effect: Suppresses all regular Repair Skill Checks. This does not affect any special Skill Checks triggered by outside effects."
+      "description": "Someone quickly painted what seems to be repair instructions on this piece of bark.\n<p>While repairing a <a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" class=\"mw-redirect\" title=\"Generator\">Generator</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/64px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/96px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/32px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> with a <b>Toolbox</b>, you benefit from the following effect:\n</p><ul><li><b>Suppresses</b> all regular <i>Repair Skill Checks</i>.\n<ul><li>This does not affect any special <a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Checks</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" title=\"Skill Check\"><img alt=\"IconHelp skillChecks.png\" src=\"/images/thumb/IconHelp_skillChecks.png/64px-IconHelp_skillChecks.png?519b36\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" title=\"Skill Check\"><img alt=\"IconHelp skillChecks.png\" src=\"/images/thumb/IconHelp_skillChecks.png/96px-IconHelp_skillChecks.png?519b36\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" title=\"Skill Check\"><img alt=\"IconHelp skillChecks.png\" src=\"/images/thumb/IconHelp_skillChecks.png/32px-IconHelp_skillChecks.png?519b36\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> triggered by outside effects.</li></ul></li></ul>"
     },
     {
       "name": "Scraps",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_scraps.png?60a345",
-      "description": "Springs, screws and gears. Mostly unusable junk. Increases the capacity of Toolboxes by +8 Charges."
+      "description": "Springs, screws and gears.<br>Mostly unusable junk.\n<ul><li><b>Increases</b> the capacity of <a href=\"https://deadbydaylight.wiki.gg/wiki/Toolboxes\" title=\"Toolboxes\">Toolboxes</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Toolboxes\" title=\"Toolboxes\"><img alt=\"IconItems toolbox.png\" src=\"/images/thumb/IconItems_toolbox.png/64px-IconItems_toolbox.png?760545\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"256\" data-file-height=\"256\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Toolboxes\" title=\"Toolboxes\"><img alt=\"IconItems toolbox.png\" src=\"/images/thumb/IconItems_toolbox.png/96px-IconItems_toolbox.png?760545\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"256\" data-file-height=\"256\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Toolboxes\" title=\"Toolboxes\"><img alt=\"IconItems toolbox.png\" src=\"/images/thumb/IconItems_toolbox.png/32px-IconItems_toolbox.png?760545\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"256\" data-file-height=\"256\"></a></span></span> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+8 Charges</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Cutting Wire",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_cuttingWire.png?87513b",
-      "description": "A rudimentary cutting tool made from a jagged metal wire and two wooden handles. Increases the Action speed for Toolbox Sabotage by +20 %."
+      "description": "A rudimentary cutting tool made from a jagged metal wire and two wooden handles.\n<ul><li><b>Increases</b> the Action speed for <i>Toolbox Sabotage</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+20&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Protective Gloves",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_protectiveGloves.png?6b4406",
-      "description": "Thick gloves, which reduce manual dexterity but protect hands from injury. While sabotaging a Hook with a Toolbox, you benefit from the following effect: Suppresses the Loud Noise Notification usually triggered after completing the Sabotage action."
+      "description": "Thick gloves, which reduce manual dexterity but protect hands from injury.\n<p>While sabotaging a <a href=\"https://deadbydaylight.wiki.gg/wiki/Hook\" class=\"mw-redirect\" title=\"Hook\">Hook</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Hook\" title=\"Hook\"><img alt=\"IconHelpLoading hook.png\" src=\"/images/thumb/IconHelpLoading_hook.png/64px-IconHelpLoading_hook.png?754198\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Hook\" title=\"Hook\"><img alt=\"IconHelpLoading hook.png\" src=\"/images/thumb/IconHelpLoading_hook.png/96px-IconHelpLoading_hook.png?754198\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Hook\" title=\"Hook\"><img alt=\"IconHelpLoading hook.png\" src=\"/images/thumb/IconHelpLoading_hook.png/32px-IconHelpLoading_hook.png?754198\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> with a <b>Toolbox</b>, you benefit from the following effect:\n</p><ul><li><b>Suppresses</b> the <i><a href=\"https://deadbydaylight.wiki.gg/wiki/Loud_Noise_Notification\" class=\"mw-redirect\" title=\"Loud Noise Notification\">Loud Noise Notification</a></i> usually triggered after completing the <i>Sabotage</i> action.</li></ul>"
     },
     {
       "name": "Socket Swivels",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_socketSwivels.png?360bd5",
-      "description": "Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices. Modifies the Toolbox with the following effect: Increases its Repair speed by +30 %."
+      "description": "<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices.\"</span></i>\n<p>Modifies the <b>Toolbox</b> with the following effect:\n</p><ul><li><b>Increases</b> its Repair speed by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+30&nbsp;%</span></b>.</li></ul>"
     },
     {
       "name": "Spring Clamp",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_springClamp.png?b651b6",
-      "description": "Useful tool to clamp hoses or hold wires in place and prevent damage or injury. While repairing a Generator with a Toolbox, you benefit from the following effect: Reduces the audible range of all noises related to the Repair interaction by -8 metres."
+      "description": "Useful tool to clamp hoses or hold wires in place and prevent damage or injury.\n<p>While repairing a <a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" class=\"mw-redirect\" title=\"Generator\">Generator</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/64px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/96px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/32px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> with a <b>Toolbox</b>, you benefit from the following effect:\n</p><ul><li><b>Reduces</b> the audible range of all noises related to the <i>Repair</i> interaction by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">-8 metres</span></b>.</li></ul>"
     },
     {
       "name": "Wire Spool",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_wireSpool.png?9d265d",
-      "description": "A portable but heavy spool of copper wire. Increases the capacity of Toolboxes by +12 Charges."
+      "description": "A portable but heavy spool of copper wire.\n<ul><li><b>Increases</b> the capacity of <a href=\"https://deadbydaylight.wiki.gg/wiki/Toolboxes\" title=\"Toolboxes\">Toolboxes</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Toolboxes\" title=\"Toolboxes\"><img alt=\"IconItems toolbox.png\" src=\"/images/thumb/IconItems_toolbox.png/64px-IconItems_toolbox.png?760545\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"256\" data-file-height=\"256\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Toolboxes\" title=\"Toolboxes\"><img alt=\"IconItems toolbox.png\" src=\"/images/thumb/IconItems_toolbox.png/96px-IconItems_toolbox.png?760545\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"256\" data-file-height=\"256\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Toolboxes\" title=\"Toolboxes\"><img alt=\"IconItems toolbox.png\" src=\"/images/thumb/IconItems_toolbox.png/32px-IconItems_toolbox.png?760545\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"256\" data-file-height=\"256\"></a></span></span> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+12 Charges</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Grip Wrench",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_gripWrench.png?367484",
-      "description": "An adjustable wrench with a tough grip. Essential in any Toolbox. Increases the Auto-Repair timer for sabotaged Hooks by +20 seconds."
+      "description": "An adjustable wrench with a tough grip.<br>Essential in any Toolbox.\n<ul><li><b>Increases</b> the Auto-Repair timer for sabotaged <a href=\"https://deadbydaylight.wiki.gg/wiki/Hook\" class=\"mw-redirect\" title=\"Hook\">Hooks</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Hook\" title=\"Hook\"><img alt=\"IconHelpLoading hook.png\" src=\"/images/thumb/IconHelpLoading_hook.png/64px-IconHelpLoading_hook.png?754198\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Hook\" title=\"Hook\"><img alt=\"IconHelpLoading hook.png\" src=\"/images/thumb/IconHelpLoading_hook.png/96px-IconHelpLoading_hook.png?754198\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Hook\" title=\"Hook\"><img alt=\"IconHelpLoading hook.png\" src=\"/images/thumb/IconHelpLoading_hook.png/32px-IconHelpLoading_hook.png?754198\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+20 seconds</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Hacksaw",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_hacksaw.png?b7e4cf",
-      "description": "A small hand saw mounted with a metal cutting blade. Increases the Action speed for Toolbox Sabotage by +30 %."
+      "description": "A small hand saw mounted with a metal cutting blade.\n<ul><li><b>Increases</b> the Action speed for <i>Toolbox Sabotage</i> by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">+30&nbsp;%</span></b>.</li></ul>\n<p><br>\n</p>"
     },
     {
       "name": "Brand New Part",
       "item": "Toolbox",
       "itemKey": "toolbox",
       "image": "https://deadbydaylight.wiki.gg/images/IconAddon_brandNewPart.png?b863d0",
-      "description": "This intricate mechanical part feels oddly out of place. It is clean and shiny as if straight out of the factory. Press the Use Item button while standing next to a Generator to perform the Install Brand New Part action: Triggers a difficult Skill Check. Permanently reduces the Repair requirement by -10 Charges for that Generator upon succeeding the Skill Check. Brand New Part is consumed on use."
+      "description": "This intricate mechanical part feels oddly out of place.<br>It is clean and shiny as if straight out of the factory.\n<p>Press the <i>Use Item button</i> while standing next to a <a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" class=\"mw-redirect\" title=\"Generator\">Generator</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/64px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/96px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/32px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> to perform the <i>Install Brand New Part</i> action:\n</p><ul><li><b>Triggers</b> a difficult <a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" title=\"Skill Check\"><img alt=\"IconHelp skillChecks.png\" src=\"/images/thumb/IconHelp_skillChecks.png/64px-IconHelp_skillChecks.png?519b36\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" title=\"Skill Check\"><img alt=\"IconHelp skillChecks.png\" src=\"/images/thumb/IconHelp_skillChecks.png/96px-IconHelp_skillChecks.png?519b36\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" title=\"Skill Check\"><img alt=\"IconHelp skillChecks.png\" src=\"/images/thumb/IconHelp_skillChecks.png/32px-IconHelp_skillChecks.png?519b36\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span>.</li>\n<li><b>Permanently reduces</b> the Repair requirement by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">-10 Charges</span></b> for that <b>Generator</b> upon succeeding the <i>Skill Check</i>.</li></ul>\n\n<i>Brand New Part</i> is consumed on use."
     },
     {
-      "name": "Any Addon",
-      "item": "None",
-      "itemKey": "none",
+      "name": "Any Addons",
+      "item": "Any",
+      "itemKey": "any",
       "image": "IconModifier_chaosShuffle.png",
       "description": "Pick any Addon of your choosing"
     },
     {
-      "name": "No Addon",
-      "item": "None",
-      "itemKey": "none",
+      "name": "No Addons",
       "image": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
       "description": "Nothing"
     }
