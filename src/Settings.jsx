@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom";
 function Settings() {
   const navigate = useNavigate();
   const [hideOwnerNames, setHideOwnerNames] = useState(localStorage.getItem("setHideOwnerNames") === true);
+  localStorage.setItem("hideOwnerNames", "true");
 
   function handleCheckbox(e) {
     if (e.target.checked) {
-      localStorage.setItem("hideOwnerNames", true);
       console.log("checked");
     }
 
@@ -17,7 +17,6 @@ function Settings() {
   }
 
   function handleSubmit(e) {
-    // Prevent the browser from reloading the page
     e.preventDefault();
 
     // Read the form data
@@ -32,28 +31,30 @@ function Settings() {
 
   return (
     <>
-      <h1 className="text-2xl font-semibold mb-4">Settings</h1>
-      <form className="flex flex-col" method="post" onSubmit={handleSubmit}>
-        <button type="button" onClick={() => navigate(-1)} className="max-w-24">
-          Back
-        </button>
+      <div className="flex flex-col justify-center items-center ">
+        <h1 className="text-2xl font-semibold mb-4">Settings</h1>
+        <form className="flex flex-col" method="post" onSubmit={handleSubmit}>
+          {/* <button type="button" onClick={() => navigate(-1)} className="max-w-24">
+            Back
+          </button> */}
 
-        <div>
-          <input
-            type="checkbox"
-            name="hideOwnerNames"
-            id="hideOwnerNames"
-            onChange={() => {
-              handleCheckbox;
-            }}
-          />
-          <label htmlFor="hideOwnerNames"> Hide perk owner names</label>
-        </div>
+          <div>
+            <input
+              type="checkbox"
+              name="hideOwnerNames"
+              id="hideOwnerNames"
+              onChange={() => {
+                handleCheckbox;
+              }}
+            />
+            <label htmlFor="hideOwnerNames"> Hide perk owner names</label>
+          </div>
 
-        <button type="submit" className="max-w-24">
-          Save
-        </button>
-      </form>
+          <button type="submit" className="max-w-24">
+            Save
+          </button>
+        </form>
+      </div>
     </>
   );
 }

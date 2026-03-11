@@ -1,6 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
-function ThemeSwitch({ darkMode, setDarkMode }) {
+function ThemeSwitch() {
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem("theme");
+    return savedTheme ? savedTheme === "dark" : true;
+  });
+
   function toggleTheme() {
     setDarkMode((prev) => !prev);
   }
@@ -25,7 +30,7 @@ function ThemeSwitch({ darkMode, setDarkMode }) {
         type="button"
         onClick={toggleTheme}
         aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
-        className={`${darkMode ? "bg-black" : "bg-white"} `}
+        className={`${darkMode ? "bg-black" : "bg-white"}`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

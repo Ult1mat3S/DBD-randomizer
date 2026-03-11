@@ -137,7 +137,7 @@ async function parseItemAddons(url) {
 
     const addons = await parseItemAddons("https://deadbydaylight.wiki.gg/wiki/Add-ons");
 
-    writeFileSync("./survivorItems.json", JSON.stringify({ items, addons }, null, "\t"));
+    writeFileSync("./survivorItems2.json", JSON.stringify({ items, addons }, null, "\t"));
 
     console.log("Saved to survivorItems.json");
   } catch (err) {

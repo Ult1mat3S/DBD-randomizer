@@ -1,3 +1,5 @@
+// GENERATED .JSON LISTS "THE XENOMORPH" FOR HUNTRESS ADDONS AND "THE ONRYO" IS SCRAPED AS "THE ONRY" BECAUSE OF ACCENTED CHARACTERS
+
 import axios from "axios";
 import { writeFileSync } from "fs";
 import { JSDOM } from "jsdom";
@@ -127,7 +129,7 @@ async function parseOfferings(url) {
       }),
     };
 
-    writeFileSync("./killerItems.json", JSON.stringify(data, null, "\t"));
+    writeFileSync("./killer-Items2.json", JSON.stringify(data, null, "\t"));
     console.log(`Saved to killerItems.json`);
   } catch (error) {
     console.error(error);

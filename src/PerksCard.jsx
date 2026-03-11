@@ -12,6 +12,7 @@ function safelyDecode(str) {
 function PerksCard({ perks, killer, survivor, killerAddons, killerOffering, survItem, survOffering, survivorAddons }) {
   const dialogRef = useRef(null);
 
+  const [hideOwnerNames, setHideOwnerNames] = useState(localStorage.getItem("setHideOwnerNames") === true);
   const [selectedItem, setSelectedItem] = useState(null);
 
   function openButton(item) {
@@ -163,7 +164,12 @@ function PerksCard({ perks, killer, survivor, killerAddons, killerOffering, surv
               <div
                 className="text-center max-w-md"
                 dangerouslySetInnerHTML={{
-                  __html: DOMPurify.sanitize(safelyDecode(selectedItem.description)),
+                  __html: DOMPurify.sanitize(
+                    safelyDecode(selectedItem.description).replace(
+                      /src="\/images/g,
+                      'src="https://deadbydaylight.wiki.gg/images',
+                    ),
+                  ),
                 }}
               />
             )}
