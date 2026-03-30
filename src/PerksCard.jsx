@@ -35,7 +35,7 @@ function PerksCard({ perks, killer, survivor, killerAddons, killerOffering, surv
               src={offering.image}
               alt={offering.description}
               className="w-16 h-16 object-contain hover:scale-110"
-              title={offering.killer}
+              title={offering.name}
               width={64}
               height={64}
               onClick={() => openButton(offering)}
@@ -50,7 +50,7 @@ function PerksCard({ perks, killer, survivor, killerAddons, killerOffering, surv
               src={addon.image}
               alt={addon.name}
               className="w-16 h-16 object-contain hover:scale-110"
-              title={addon.killer}
+              title={addon.name}
               width={64}
               height={64}
               onClick={() => openButton(addon)}
@@ -60,14 +60,15 @@ function PerksCard({ perks, killer, survivor, killerAddons, killerOffering, surv
         ))}
       {killer?.characterImage && (
         <div className="mb-4">
-          <p>{killer.character}</p>
           <img
             src={`https://deadbydaylight.wiki.gg${killer.characterImage}`}
             alt={killer.character}
             className="w-40 object-contain block"
+            title={killer.character}
             width={512}
             height={512}
           />
+          <p>{killer.character}</p>
         </div>
       )}
       {survOffering &&
@@ -117,14 +118,15 @@ function PerksCard({ perks, killer, survivor, killerAddons, killerOffering, surv
         ))}
       {survivor?.characterImage && (
         <div className="mb-4">
-          <p>{survivor.character}</p>
           <img
             src={`https://deadbydaylight.wiki.gg${survivor.characterImage}`}
             alt={survivor.character}
             className="w-40 object-contain block"
+            title={survivor.character}
             width={160}
             height={160}
           />
+          <p>{survivor.character}</p>
         </div>
       )}
       <div className="flex gap-2 w-90 min-h-45">
@@ -135,7 +137,7 @@ function PerksCard({ perks, killer, survivor, killerAddons, killerOffering, surv
                 src={perk.perkImage}
                 alt={perk.perkName}
                 className="max-w-full max-h-full object-contain hover:scale-110"
-                title={perk.character ?? "Common Perk"}
+                title={perk.character ? `${perk.perkName} (${perk.character})` : "Common Perk"}
                 onClick={() => openButton(perk)}
               />
             </div>
