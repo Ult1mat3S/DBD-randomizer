@@ -365,14 +365,72 @@
       "description": "This intricate mechanical part feels oddly out of place.<br>It is clean and shiny as if straight out of the factory.\n<p>Press the <i>Use Item button</i> while standing next to a <a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" class=\"mw-redirect\" title=\"Generator\">Generator</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/64px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/96px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Generator\" title=\"Generator\"><img alt=\"IconHelpLoading generators.png\" src=\"/images/thumb/IconHelpLoading_generators.png/32px-IconHelpLoading_generators.png?5c9a61\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span> to perform the <i>Install Brand New Part</i> action:\n</p><ul><li><b>Triggers</b> a difficult <a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a><span class=\"iconLink\" style=\"vertical-align: middle; padding: 0 0 0 0\"><span style=\"width:32px;max-height: 32px\" class=\"pcView pcIconLink\"><span class=\"tooltip linkIncluded borderless\"><span class=\"tooltipBaseText iconless\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" title=\"Skill Check\"><img alt=\"IconHelp skillChecks.png\" src=\"/images/thumb/IconHelp_skillChecks.png/64px-IconHelp_skillChecks.png?519b36\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" data-file-width=\"128\" data-file-height=\"128\"></a></span><span class=\"tooltiptext flex flexCenter\"><span class=\"tooltipTextWrapper\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" title=\"Skill Check\"><img alt=\"IconHelp skillChecks.png\" src=\"/images/thumb/IconHelp_skillChecks.png/96px-IconHelp_skillChecks.png?519b36\" decoding=\"async\" loading=\"lazy\" width=\"96\" height=\"96\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span></span></span><span class=\"mobileView mobileIconLink\"><a href=\"https://deadbydaylight.wiki.gg/wiki/Skill_Check\" title=\"Skill Check\"><img alt=\"IconHelp skillChecks.png\" src=\"/images/thumb/IconHelp_skillChecks.png/32px-IconHelp_skillChecks.png?519b36\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"32\" data-file-width=\"128\" data-file-height=\"128\"></a></span></span>.</li>\n<li><b>Permanently reduces</b> the Repair requirement by <b><span class=\"luaClr clr clryellow\" style=\"color: #e8c252;\">-10 Charges</span></b> for that <b>Generator</b> upon succeeding the <i>Skill Check</i>.</li></ul>\n\n<i>Brand New Part</i> is consumed on use."
     },
     {
-      "name": "Any Addons",
-      "item": "Any",
-      "itemKey": "any",
+      "name": "Any Addon",
+      "item": "Toolbox",
+      "itemKey": "toolbox",
       "image": "IconModifier_chaosShuffle.png",
       "description": "Pick any Addon of your choosing"
     },
     {
-      "name": "No Addons",
+      "name": "Any Addon",
+      "item": "Medkit",
+      "itemKey": "medkit",
+      "image": "IconModifier_chaosShuffle.png",
+      "description": "Pick any Addon of your choosing"
+    },
+    {
+      "name": "Any Addon",
+      "item": "Map",
+      "itemKey": "map",
+      "image": "IconModifier_chaosShuffle.png",
+      "description": "Pick any Addon of your choosing"
+    },
+    {
+      "name": "Any Addon",
+      "item": "Flashlight",
+      "itemKey": "flashlight",
+      "image": "IconModifier_chaosShuffle.png",
+      "description": "Pick any Addon of your choosing"
+    },
+    {
+      "name": "No Addon",
+      "item": "Toolbox",
+      "itemKey": "toolbox",
+      "image": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
+      "description": "Nothing"
+    },
+    {
+      "name": "No Addon",
+      "item": "Medkit",
+      "itemKey": "medkit",
+      "image": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
+      "description": "Nothing"
+    },
+    {
+      "name": "No Addon",
+      "item": "Map",
+      "itemKey": "map",
+      "image": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
+      "description": "Nothing"
+    },
+    {
+      "name": "No Addon",
+      "item": "Flashlight",
+      "itemKey": "flashlight",
+      "image": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
+      "description": "Nothing"
+    },
+    {
+      "name": "No Addon",
+      "item": "Key",
+      "itemKey": "key",
+      "image": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
+      "description": "Nothing"
+    },
+    {
+      "name": "No Addon",
+      "item": "Fog Vial",
+      "itemKey": "fog vial",
       "image": "https://deadbydaylight.wiki.gg/images/DailyRitualIcon_brutality.png",
       "description": "Nothing"
     }

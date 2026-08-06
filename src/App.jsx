@@ -5,6 +5,7 @@ import BuildsHistory from "./BuildsHistory.jsx";
 import Contact from "./Contact.jsx";
 import ObsSource from "./ObsSource.jsx";
 import PerksCard from "./PerksCard";
+import PerksList from "./PerksList.jsx";
 import Settings from "./Settings.jsx";
 import Support from "./Support.jsx";
 import ThemeSwitch from "./ThemeSwitch.jsx";
@@ -118,7 +119,7 @@ function App() {
     <Router basename={`${import.meta.env.BASE_URL}`}>
       <div className="flex justify-between items-center"></div>
       <div className="flex justify-end items-right">
-        <ThemeSwitch darkMode={darkMode} setDarkMode={setDarkMode} />
+        {/* <ThemeSwitch darkMode={darkMode} setDarkMode={setDarkMode} /> */}
       </div>
 
       <Routes>
@@ -157,13 +158,9 @@ function App() {
                   </button>
                 </>
               )}
-              <div>
-                Credit to the&nbsp;
-                <a href="https://deadbydaylight.wiki.gg">Dead By Daylight Wiki</a>
-                &nbsp;for the images and data
-              </div>
-              <a href="https://buymeacoffee.com/ult1mat3s"> Support ❤️</a> |{" "}
-              <a href="https://github.com/Ult1mat3S/DBD-randomizer">GitHub</a>
+
+              <br></br>
+              <a href="https://github.com/Ult1mat3S/DBD-randomizer">GitHub Source</a>
             </div>
           }
         />
@@ -173,6 +170,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/ObsSource" element={<ObsSource />} />
         <Route path="/BuildsHistory" element={<BuildsHistory />} />
+        <Route path="/PerksList" element={<PerksList />} />
       </Routes>
     </Router>
   );
