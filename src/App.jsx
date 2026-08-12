@@ -1,13 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import About from "./About.jsx";
 import BuildsHistory from "./BuildsHistory.jsx";
-import Contact from "./Contact.jsx";
-import ObsSource from "./ObsSource.jsx";
 import PerksCard from "./PerksCard";
 import PerksList from "./PerksList.jsx";
 import Settings from "./Settings.jsx";
-import Support from "./Support.jsx";
 import ThemeSwitch from "./ThemeSwitch.jsx";
 
 const getRandomItems = (arr, n) => {
@@ -165,10 +161,6 @@ function App() {
           }
         />
         <Route path="/settings" element={<Settings />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/ObsSource" element={<ObsSource />} />
         <Route path="/BuildsHistory" element={<BuildsHistory />} />
         <Route path="/PerksList" element={<PerksList />} />
       </Routes>

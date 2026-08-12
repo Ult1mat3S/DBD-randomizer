@@ -30,7 +30,7 @@ function PerksCard({ perks, killer, survivor, killerAddons, killerOffering, surv
     <div className="flex flex-col p-1 items-center text-center">
       {killerOffering &&
         killerOffering.map((offering, i) => (
-          <div key={i} className="flex flex-col p-1 items-center">
+          <div key={i} className="flex flex-row p-1 items-center">
             <img
               src={offering.image}
               alt={offering.description}
